@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>1613829988</id>
+  <mod>Nice Map [Zones + Zone names + Roads]</mod>
+  <title>Nice Map [Zones + Zone names + Roads]</title>
+  <tags>
+    <string>Graphical</string>
+    <string>GUI</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2019-01-29T16:10:10.329951+03:00</lastUpdate>
+</ModData>

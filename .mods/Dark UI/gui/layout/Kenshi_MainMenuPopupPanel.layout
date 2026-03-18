@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="WhiteSkin" position_real="0 0 1 1" layer="Main" name="Root">
+        <Property key="Alpha" value="0.75"/>
+        <Property key="Colour" value="0 0 0"/>
+        <Property key="NeedMouse" value="true"/>
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0.4505208432674408 0.33796295523643494 0.1041666641831398 0.31851851940155029" name="MainMenuPopupPanel">
+            <Property key="InheritsAlpha" value="false"/>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.079999998211860657 0.040697675198316574 0.8399999737739563 0.13081395626068115" name="NewGameButton">
+                <Property key="Caption" value="NEW GAME"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.079999998211860657 0.18604651093482971 0.8399999737739563 0.13081395626068115" name="SaveGameButton">
+                <Property key="Caption" value="SAVE GAME"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.079999998211860657 0.33139535784721375 0.8399999737739563 0.13081395626068115" name="LoadGameButton">
+                <Property key="Caption" value="LOAD GAME"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.079999998211860657 0.47674417495727539 0.8399999737739563 0.13081395626068115" name="OptionsButton">
+                <Property key="Caption" value="OPTIONS"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.079999998211860657 0.625 0.8399999737739563 0.13081395626068115" name="ExitGameButton">
+                <Property key="Caption" value="EXIT GAME"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.079999998211860657 0.82558137178421021 0.8399999737739563 0.13081395626068115" name="ResumeButton">
+                <Property key="Caption" value="RESUME"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

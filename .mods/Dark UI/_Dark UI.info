@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>1200632417</id>
+  <mod>Dark UI</mod>
+  <title>Dark UI</title>
+  <tags>
+    <string>Graphical</string>
+    <string>GUI</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2020-08-10T00:22:49.6863693+02:00</lastUpdate>
+</ModData>

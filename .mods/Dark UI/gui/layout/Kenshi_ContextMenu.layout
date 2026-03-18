@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.125 0.067592591047286987" layer="Popup" name="Root">
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0 0 1 1" align="Stretch">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 0.46575343608856201">
+                <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0 0.11764705926179886 1 1" align="Stretch" name="NameText">
+                    <Property key="Caption" value="Title"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0 0.46575343608856201 1 0.52054792642593384" align="Stretch" layer="Popup" name="OptionsList">
+                <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" align="Stretch" name="Option">
+                    <Widget type="Button" skin="Kenshi_Button1" position_real="0.033333335071802139 -0.052631579339504242 0.92916667461395264 0.89473682641983032" align="Default" name="Button">
+                        <Property key="Caption" value="Button CTX"/>
+                    </Widget>
+                    <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.78333336114883423 -0.052631579339504242 0.1875 0.89473682641983032" name="Value">
+                        <Property key="Caption" value="100%"/>
+                        <Property key="TextAlign" value="Right VCenter"/>
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

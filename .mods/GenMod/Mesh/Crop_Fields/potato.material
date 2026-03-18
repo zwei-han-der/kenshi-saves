@@ -1,0 +1,30 @@
+material _re01bm_000_edge
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.550000 0.550000 0.550000
+                        diffuse 0.550000 0.550000 0.550000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.000000 0.000000 0.000000
+                }
+        }
+}
+material _re01bm_001
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.550000 0.550000 0.550000
+                        diffuse 0.550000 0.550000 0.550000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.000000 0.000000 0.000000
+                        texture_unit
+                        {
+                                texture re01b_00_BM.png
+                        }
+                }
+        }
+}

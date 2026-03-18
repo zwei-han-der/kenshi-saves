@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0 0 0.3541666567325592 0.30092594027519226" align="Default" layer="Window" name="Root">
+        <Property key="Depth" value="1"/>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.0088235298171639442 0.030769230797886848 0.98088234663009644 0.10461538285017014" align="HStretch Top" name="lbTitle">
+            <Property key="Caption" value="LOAD GAME"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Large"/>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.65588235855102539 0.12923076748847961 0.32941177487373352 0.51384615898132324" align="Right Top">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.0223214291036129 0.035928145051002502 0.94642859697341919 0.91616767644882202" align="Stretch" name="InfoPanel"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button1" position_real="0.65882354974746704 0.84307694435119629 0.15735293924808502 0.12307692319154739" align="Right Bottom" name="LoadButton">
+            <Property key="Caption" value="LOAD"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button1" position_real="0.82499998807907104 0.84307694435119629 0.15735293924808502 0.12307692319154739" align="Right Bottom" name="CancelButton">
+            <Property key="Caption" value="CANCEL"/>
+        </Widget>
+        <Widget type="MultiListBox" skin="Kenshi_MultiListBox" position_real="0.014705882407724857 0.12923076748847961 0.63823527097702026 0.8461538553237915" align="Stretch" name="GamesList"/>
+        <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.66470587253570557 0.66769230365753174 0.29411765933036804 0.13230769336223602" align="Right Top" name="lbResetSquadPosition">
+            <Property key="Caption" value="Reset squad positions"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_TickBoxSkin" position_real="0.92941176891326904 0.68307691812515259 0.051470588892698288 0.10461538285017014" align="Right Top" name="ResetTickBox"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

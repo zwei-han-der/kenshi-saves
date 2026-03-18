@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>720660382</id>
+  <mod>Interior Design</mod>
+  <title>Interior (and Exterior) Design</title>
+  <tags>
+    <string>Buildings</string>
+    <string>Gameplay</string>
+    <string>Research</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2021-04-21T20:56:25.5840378-05:00</lastUpdate>
+</ModData>

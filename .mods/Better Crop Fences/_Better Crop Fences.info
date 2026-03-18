@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>1631820298</id>
+  <mod>Better Crop Fences</mod>
+  <title>Better Crop Fences</title>
+  <tags>
+    <string>Buildings</string>
+    <string>Graphical</string>
+  </tags>
+  <visibility>2</visibility>
+  <lastUpdate>2019-01-21T18:13:01-06:00</lastUpdate>
+</ModData>

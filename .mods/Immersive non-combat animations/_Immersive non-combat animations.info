@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>2692142481</id>
+  <mod>Immersive non-combat animations</mod>
+  <title>Immersive non-combat animation</title>
+  <tags>
+    <string>Characters</string>
+    <string>Graphical</string>
+    <string>Races</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate xsi:nil="true" />
+</ModData>

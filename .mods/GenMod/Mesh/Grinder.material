@@ -1,0 +1,13 @@
+material Grinder
+{
+        technique
+        {
+                pass
+                {
+                        ambient 1.000000 1.000000 1.000000
+                        diffuse 1.000000 1.000000 1.000000
+                        specular 0.175000 0.175000 0.175000 0
+                        emissive 0.000000 0.000000 0.000000
+                }
+        }
+}

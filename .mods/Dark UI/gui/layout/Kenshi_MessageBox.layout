@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_WindowC" position_real="0 0 0.1822916716337204 0.14722222089767456" layer="Info" name="Root">
+        <Property key="Caption" value="TITLE"/>
+        <Property key="Movable" value="false"/>
+        <Widget type="EditBox" skin="Kenshi_WordWrapEmpty" position_real="0.029069768264889717 0.052631579339504242 0.94186043739318848 0.52631580829620361" align="Stretch" name="MessageText">
+            <Property key="TextColour" value="0.871345 0.845139 0.810198"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button2" position_real="0.03488372266292572 0.64912283420562744 0.2616279125213623 0.26315790414810181" align="Left Bottom" name="ButtonA">
+            <Property key="Caption" value="A"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button2" position_real="0.36627906560897827 0.64912283420562744 0.2616279125213623 0.26315790414810181" align="HCenter Bottom" name="ButtonB">
+            <Property key="Caption" value="B"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button2" position_real="0.69767439365386963 0.64912283420562744 0.2616279125213623 0.26315790414810181" align="Right Bottom" name="ButtonC">
+            <Property key="Caption" value="C"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="Kenshi_FloatingPanelThinSkin" position_real="0 0 0.11145833134651184 0.03055555559694767" layer="Back" name="Root">
+        <Widget type="ProgressBar" skin="Kenshi_ProgressBarFill" position_real="-0.0046728970482945442 0.18181818723678589 1.0046728849411011 0.66666668653488159" align="Stretch" name="ProgressBar">
+            <Property key="Range" value="1000"/>
+            <Property key="RangePosition" value="0"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0 0 1 0.93939393758773804" align="Stretch" name="Text">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Caption" value="Text"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextColour" value="0.871345 0.845139 0.810198"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings>
+        <Property key="IncludeDirectory" value=""/>
+        <Property key="PanelName" value=""/>
+        <Property key="PanelNamespace" value=""/>
+        <Property key="SourceDirectory" value=""/>
+    </CodeGeneratorSettings>
+</MyGUI>

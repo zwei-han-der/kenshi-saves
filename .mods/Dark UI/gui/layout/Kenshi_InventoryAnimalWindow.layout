@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_WindowCXP" position_real="0 0 0.25989583134651184 0.43981480598449707" layer="Window" name="Root">
+        <Property key="Caption" value="INVENTORY"/>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.9918864369392395 0.99534881114959717" align="Stretch">
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.01840490847826004 0.0070093455724418163 0.23312883079051971 0.10514018684625626" name="OpenBagButton">
+                <Property key="Caption" value="OPEN BAG"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0.31492841243743896 0.077102802693843842 0.25153374671936035 0.23364485800266266" name="backpack_attach"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.31492841243743896 0.014018691144883633 0.25153374671936035 0.058411214500665665" name="lbBackpack">
+                <Property key="Caption" value="BACKPACK"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0.57668709754943848 0.514018714427948 0.40490797162055969 0.46728971600532532" name="main"/>
+            <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.57668709754943848 0.011682243086397648 0.4110429584980011 0.44626167416572571">
+                <Widget type="Widget" skin="Kenshi_TextBoxEmptySkin" position_real="0.064676620066165924 0.073298431932926178 0.83582091331481934 0.63874346017837524" name="datapanel"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.57668709754943848 0.45794391632080078 0.40490797162055969 0.046728972345590591" name="MainSectionName">
+                <Property key="Caption" value="INVENTORY"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

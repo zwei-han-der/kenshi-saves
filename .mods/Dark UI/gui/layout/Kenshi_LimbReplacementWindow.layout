@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_WindowCX" position_real="0 0 0.10104166716337204 0.40740740299224854" layer="Window" name="Root">
+        <Property key="Caption" value="LIMBS"/>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.98404252529144287 1" align="Stretch">
+            <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0.67027026414871216 0.060759492218494415 0.26486486196517944 0.377215176820755" name="left_arm_replace"/>
+            <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0.064864866435527802 0.49113923311233521 0.26486486196517944 0.44050633907318115" name="right_leg_replace"/>
+            <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0.67567569017410278 0.49113923311233521 0.26486486196517944 0.44050633907318115" name="left_leg_replace"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.054054055362939835 0.010126582346856594 0.89189189672470093 0.050632912665605545" name="lbLeftArm">
+                <Property key="Caption" value="ARMS"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.054054055362939835 0.93670886754989624 0.90810811519622803 0.045569621026515961" name="lbLeftLeg">
+                <Property key="Caption" value="LEGS"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0.064864866435527802 0.060759492218494415 0.26486486196517944 0.377215176820755" name="right_arm_replace"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.15675675868988037 0.1316455751657486 0.69189190864562988 0.64556962251663208">
+                <Property key="ImageTexture" value="figure.png"/>
+                <Property key="Depth" value="1"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

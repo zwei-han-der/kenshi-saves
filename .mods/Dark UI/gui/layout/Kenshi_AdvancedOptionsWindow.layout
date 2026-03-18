@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_WindowC" position_real="0 0 0.30000001192092896 0.46944445371627808" align="Default" layer="Window" name="Root">
+        <Property key="Depth" value="1"/>
+        <Property key="Caption" value="ADVANCED OPTIONS"/>
+        <Property key="Movable" value="false"/>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.022807016968727112 0.019480518996715546 0.95263159275054932 0.72943723201751709" align="Stretch" name="Datapanel"/>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.017543859779834747 0.75974023342132568 0.9649122953414917 0.22727273404598236" align="Stretch" name="TooltipPanel"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

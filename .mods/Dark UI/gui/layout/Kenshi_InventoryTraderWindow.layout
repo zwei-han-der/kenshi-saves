@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_WindowCX" position_real="0 0 0.26770833134651184 0.53888887166976929" layer="Window" name="Root">
+        <Property key="Caption" value="TRADER"/>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.99015748500823975 0.99068903923034668" align="Stretch" name="Content">
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.39761430025100708 0.93233084678649902 0.20278330147266388 0.056390978395938873" align="HCenter Bottom" name="ArrangeButton">
+                <Property key="Caption" value="ARRANGE"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.011928429827094078 0 0.55 0.077067665755748749">
+                <Widget type="Widget" skin="PanelEmpty" position_real="0.0040322579443454742 0.34146341681480408 1 0.46341463923454285" name="datapanel">
+                    <Property key="Caption" value="Money"/>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0.027833001688122749 0.073308274149894714 0.87872761487960815 0.84586465358734131" name="backpack_content"/>
+            <Widget type="ScrollView" skin="Kenshi_ScrollView" position_real="0.023856859654188156 0.073308274149894714 0.95825052261352539 0.84586465358734131" name="scrollview_backpack_content">
+                <Property key="CanvasSize" value="450 600"/>
+                <Property key="CanvasAlign" value="Default"/>
+                <Property key="VisibleHScroll" value="false"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

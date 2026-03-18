@@ -1,0 +1,17 @@
+material Emergency_Backup_Generator
+{
+        technique
+        {
+                pass
+                {
+                        ambient 1.000000 1.000000 1.000000
+                        diffuse 0.800000 0.800000 0.800000
+                        specular 0.500000 0.500000 0.500000 0
+                        emissive 0.000000 0.000000 0.000000
+                        texture_unit
+                        {
+                                texture Emergency Backup Generator_Default_nmap_Blender.jpg
+                        }
+                }
+        }
+}

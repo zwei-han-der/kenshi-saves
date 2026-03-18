@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" align="Stretch" layer="Middle" name="Root">
+        <Property key="NeedMouse" value="true"/>
+        <Property key="NeedKey" value="true"/>
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0.3541666567325592 0.75 0.2890625 0.25185185670852661" name="PlayerPanel">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.021621622145175934 0.044117648154497147 0.22342342138290405 0.45588234066963196" align="Left Top" name="PlayerPortrait"/>
+            <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.2684684693813324 0.033088237047195435 0.30450451374053955 0.11764705926179886" align="Left Top" name="PlayerName">
+                <Property key="Caption" value="PlayerName"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.25585585832595825 0.14705882966518402 0.72792792320251465 0.83088237047195435" align="Stretch">
+                <Widget type="ScrollView" skin="Kenshi_ScrollViewEmpty" position_real="0.034653466194868088 0.061946902424097061 0.92574256658554077 0.86725664138793945" align="Stretch" name="PlayerDialog">
+                    <Property key="VisibleHScroll" value="false"/>
+                    <Property key="CanvasSize" value="346 165"/>
+                    <Property key="CanvasAlign" value="Left Top"/>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.0072072073817253113 0.52205884456634521 0.24504505097866058 0.10294117778539658" align="Stretch">
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.051470588892698288 0.1785714328289032 0.97058820724487305 0.71428573131561279" name="MoneyLabelText">
+                    <Property key="Caption" value="Money:"/>
+                </Widget>
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.014705882407724857 0.1428571492433548 0.95588237047195435 0.71428573131561279" name="MoneyAmountText">
+                    <Property key="Caption" value="c. 100.000"/>
+                    <Property key="TextAlign" value="Right VCenter"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0.25 0.60740739107131958 0.484375 0.1388888955116272" name="NpcPanel">
+            <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.16129031777381897 0.059999998658895493 0.33225807547569275 0.18666666746139526" align="Left Top" name="NpcName">
+                <Property key="Caption" value="NpcName"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.012903225608170033 0.079999998211860657 0.13548387587070465 0.83333331346511841" align="Left Top" name="NpcPortrait"/>
+            <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.15376344323158264 0.23999999463558197 0.8354838490486145 0.72000002861022949" align="Stretch">
+                <Widget type="EditBox" skin="Kenshi_EditBoxStrechEmpty" position_real="0.019305018708109856 0.12962962687015533 0.96010297536849976 0.72222220897674561" align="Stretch" name="NpcDialog">
+                    <Property key="Static" value="true"/>
+                    <Property key="MultiLine" value="true"/>
+                    <Property key="WordWrap" value="true"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings>
+        <Property key="IncludeDirectory" value=""/>
+        <Property key="PanelName" value=""/>
+        <Property key="PanelNamespace" value=""/>
+        <Property key="SourceDirectory" value=""/>
+    </CodeGeneratorSettings>
+</MyGUI>

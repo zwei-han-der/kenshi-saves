@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0 0 0.3541666567325592 0.4583333432674408" align="Default" layer="Window" name="Root">
+        <Property key="Depth" value="1"/>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.017647059634327888 0.018181817606091499 0.96470588445663452 0.072727270424365997" align="HStretch Top" name="lbTitle">
+            <Property key="Caption" value="IMPORT GAME"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Large"/>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.65588235855102539 0.084848485887050629 0.32647058367729187 0.35959595441818237" align="Right Top">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.027027027681469917 0.033707864582538605 0.94594591856002808 0.92134833335876465" align="Stretch" name="InfoPanel"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button1" position_real="0.65735292434692383 0.89696967601776123 0.16029411554336548 0.084848485887050629" align="Left Bottom" name="ImportButton">
+            <Property key="Caption" value="IMPORT"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button2" position_real="0.65588235855102539 0.83838385343551636 0.32941177487373352 0.056565657258033752" align="Left Bottom" name="AdvancedButton">
+            <Property key="Caption" value="ADVANCED OPTIONS"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button1" position_real="0.82352942228317261 0.89696967601776123 0.1617647111415863 0.084848485887050629" align="Left Bottom" name="CancelButton">
+            <Property key="Caption" value="CANCEL"/>
+        </Widget>
+        <Widget type="MultiListBox" skin="Kenshi_MultiListBox" position_real="0.013235294260084629 0.084848485887050629 0.63970589637756348 0.90303027629852295" align="Stretch" name="GamesList"/>
+        <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.660294 0.428571 0.280882 0.0857143" align="Right Top" name="lbResetSquadPosition">
+            <Property key="Caption" value="Reset squad positions"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_TickBoxSkin" position_real="0.935294 0.438571 0.0514706 0.0724286" align="Right Top" name="ResetTickBox"/>
+        <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.660294 0.5 0.280882 0.0857143" align="Right Top" name="lbImportBuildings">
+            <Property key="Caption" value="Import Buildings"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_TickBoxSkin" position_real="0.935294 0.510204 0.0514706 0.0714286" align="Right Top" name="BuildingsTickBox">
+            <Property key="StateSelected" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.660294 0.581633 0.280882 0.0857143" align="Right Top" name="lbImportResearch">
+            <Property key="Caption" value="Import Research"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_TickBoxSkin" position_real="0.933824 0.591837 0.0514706 0.0714286" align="Right Top" name="ResearchTickBox">
+            <Property key="StateSelected" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.661765 0.663265 0.280882 0.0857143" name="lbImportNPC">
+            <Property key="Caption" value="Import Dead NPCs"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_TickBoxSkin" position_real="0.933824 0.673469 0.0514706 0.0714286" name="NPCTickBox">
+            <Property key="StateSelected" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.661765 0.744898 0.279412 0.0816327" name="lbImportRelations">
+            <Property key="Caption" value="Import Relations"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_TickBoxSkin" position_real="0.933824 0.744898 0.0514706 0.0714286" name="RelationsTickBox">
+            <Property key="StateSelected" value="true"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

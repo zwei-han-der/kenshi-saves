@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_WindowCXP" position_real="0 0 0.66093748807907104 0.60555553436279297" layer="Window" name="Root">
+        <Property key="Caption" value="CHARACTER STATS"/>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.013460015878081322 0.01149425283074379 0.18606492877006531 0.031198685988783836" name="lbAttributes">
+            <Property key="Caption" value="ATTRIBUTES"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.21298494935035706 0.01149425283074379 0.55186063051223755 0.031198685988783836" name="lbSkills">
+            <Property key="Caption" value="SKILLS"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.0095011880621314049 0.55500823259353638 0.7569279670715332 0.4285714328289032">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.01046025101095438 0.038314174860715866 0.38389122486114502 0.91570883989334106" align="Stretch" name="Description1Panel"/>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.40794980525970459 0.038314174860715866 0.58158993721008301 0.91570883989334106" name="Description2Panel"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.012668250128626823 0.51888340711593628 0.18685668706893921 0.039408866316080093" name="lbDescription">
+            <Property key="Caption" value="DESCRIPTION"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.77830564975738525 0.013136289082467556 0.20981790125370026 0.031198685988783836" name="lbDerivedStats">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Caption" value="DERIVED STATISTICS"/>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_GenericTextBoxSkin" position_real="0.76959621906280518 0.039408866316080093 0.22327791154384613 0.94088667631149292">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.042553190141916275 0.020942408591508865 0.91843974590301514 0.96160560846328735" align="Stretch" name="StatisticsPanel"/>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.20902612805366516 0.041050903499126434 0.55740302801132202 0.51067322492599487">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.017045455053448677 0.038585208356380463 0.21875 0.91318327188491821" align="Left VStretch" name="Skills1Panel"/>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.26704546809196472 0.038585208356380463 0.21875 0.91318327188491821" align="Right VStretch" name="Skills2Panel"/>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.51420456171035767 0.038585208356380463 0.21875 0.91318327188491821" name="Skills3Panel"/>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.76420456171035767 0.038585208356380463 0.21875 0.91639870405197144" name="Skills4Panel"/>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.011084718629717827 0.042692940682172775 0.1931908130645752 0.293924480676651">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.04098360612988472 0.055865921080112457 0.91803276538848877 0.88268154859542847" align="Stretch" name="AttributesPanel"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

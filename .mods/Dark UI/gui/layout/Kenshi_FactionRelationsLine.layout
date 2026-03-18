@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="Kenshi_Button1Skin" position_real="0 0 0.25989583134651184 0.021296296268701553" layer="Main" name="Root">
+        <Widget type="Widget" skin="Kenshi_LifeBarSkin" position_real="0.49498999118804932 0.34782609343528748 0.49098196625709534 0.34782609343528748" align="Right VStretch" name="RightBar">
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_LifeBarHurtSkin" position_real="0.014028056524693966 0.34782609343528748 0.48096191883087158 0.34782609343528748" align="Left VStretch" name="LeftBar">
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.018036073073744774 0 0.97995990514755249 1" align="Stretch" name="FactionName">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="Faction Name"/>
+            <Property key="TextColour" value="0.871345 0.845139 0.810198"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0 0 0.97995990514755249 1" align="Stretch" name="FactionValue">
+            <Property key="TextAlign" value="Right VCenter"/>
+            <Property key="Caption" value="0"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

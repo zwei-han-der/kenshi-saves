@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" layer="Window" name="Root">
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedMouse" value="false"/>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.12968750298023224 0.46296295523643494" name="TooltipsPanel">
+            <Property key="NeedMouse" value="false"/>
+            <Property key="InheritsPick" value="true"/>
+            <Property key="Depth" value="1"/>
+        </Widget>
+        <Widget type="Window" skin="Kenshi_WindowCX" position_real="0 0 0.2604166567325592 0.32314816117286682" name="TutorialWindow">
+            <Property key="Depth" value="0"/>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.73279350996017456 0.875 0.24291497468948364 0.095394738018512726" align="Right Bottom" name="NextTutorialButton">
+                <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+                <Property key="Caption" value="CONTINUE"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.47773280739784241 0.875 0.24291497468948364 0.095394738018512726" align="Right Bottom" name="PrevTutorialButton">
+                <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+                <Property key="Caption" value="PREVIOUS"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.02024291455745697 0.875 0.24291497468948364 0.095394738018512726" align="Left Bottom" name="DismissButton">
+                <Property key="Caption" value="Dismiss"/>
+                <Property key="FontName" value="Kenshi_PaintedTextFont_Small"/>
+            </Widget>
+            <Widget type="EditBox" skin="Kenshi_WordWrap" position_real="0.02024291455745697 0.019736841320991516 0.95748990774154663 0.85526317358016968" align="Stretch" name="TutorialDescription"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.26315790414810181 0.875 0.2145749032497406 0.095394738018512726" align="HStretch Bottom" name="PagingText">
+                <Property key="Caption" value="1 / 2"/>
+                <Property key="TextColour" value="0.4 0.380392 0.356863"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

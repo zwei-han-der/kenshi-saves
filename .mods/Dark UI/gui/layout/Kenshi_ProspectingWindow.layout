@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_WindowCX" position_real="0 0 0.30937498807907104 0.50833332538604736" layer="Window" name="Root">
+        <Property key="Caption" value="PROSPECTING"/>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.017006803303956985 0.0476190485060215 0.96598637104034424 0.295634925365448">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.015845069661736488 0.046979866921901703 0.45422536134719849 0.89261746406555176" align="Stretch" name="OverviewDatapanel1"/>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.48591548204421997 0.046979866921901703 0.5 0.89261746406555176" align="Stretch" name="OverviewDatapanel2"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.47278910875320435 0.3968254029750824 0.50340133905410767 0.5773809552192688" name="Map">
+            <Widget type="ImageBox" skin="RotatingSkin" position_real="0 0 0.10472972691059113 0.099656358361244202" name="CameraMarker">
+                <Property key="ImageResource" value="Kenshi_MapMarkers"/>
+                <Property key="ImageGroup" value="Camera"/>
+                <Property key="ImageName" value="Camera"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.020408162847161293 0.3968254029750824 0.43707484006881714 0.579365074634552" align="Stretch" name="ResourcesList"/>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.013605441898107529 0.0079365083947777748 0.97278910875320435 0.0476190485060215" name="lbOverview">
+            <Property key="Caption" value="OVERVIEW"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.017006803303956985 0.33928570151329041 0.44387754797935486 0.0595238097012043" name="lbResources">
+            <Property key="Caption" value="RESOURCES"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>
