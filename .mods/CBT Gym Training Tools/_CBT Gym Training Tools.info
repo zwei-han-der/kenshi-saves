@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>2573646896</id>
+  <mod>CBT Gym Training Tools</mod>
+  <title>Gym Training Tools</title>
+  <tags>
+    <string>Buildings</string>
+    <string>Cheats</string>
+    <string>Gameplay</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2025-09-14T18:36:59.2277221+03:00</lastUpdate>
+</ModData>

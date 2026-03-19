@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<NXUSTREAM2>
+    <NxuPhysicsCollection id="D:\Kenshi Omat viritykset\ToughnessTrainingCol.xml" nxuVersion="103" sdkVersion="284">
+        <NxSceneDesc hasFilter="false" hasLimits="false" hasMaxBounds="false" id="collision">
+            <NxActorDesc hasBody="false" id="name" name="Cube.001">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 -5.967981 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.095594 2.095594 5.021328"/>
+            </NxActorDesc>
+        </NxSceneDesc>
+    </NxuPhysicsCollection>
+</NXUSTREAM2>

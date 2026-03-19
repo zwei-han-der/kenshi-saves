@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<NXUSTREAM2>
+    <NxuPhysicsCollection id="D:\Kenshi Omat viritykset\TreadmillColl.mesh.xml" nxuVersion="103" sdkVersion="284">
+        <NxSceneDesc hasFilter="false" hasLimits="false" hasMaxBounds="false" id="collision">
+            <NxActorDesc hasBody="false" id="name" name="Cube.013">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -5.321693 0.000000 0.427230</globalPose>
+                <NxBoxShapeDesc dimensions="3.702134 7.376601 0.410266"/>
+            </NxActorDesc>
+        </NxSceneDesc>
+    </NxuPhysicsCollection>
+</NXUSTREAM2>

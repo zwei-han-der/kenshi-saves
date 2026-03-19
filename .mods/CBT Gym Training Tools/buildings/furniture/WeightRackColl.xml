@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<NXUSTREAM2>
+    <NxuPhysicsCollection id="D:\Kenshi Omat viritykset\WeightRackColl.xml" sdkVersion="284" nxuVersion="103">
+        <NxSceneDesc id="collision" hasMaxBounds="false" hasLimits="false" hasFilter="false">
+            <NxActorDesc id="name" name="Cube.014" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.598311 1.000000 3.684486"/>
+            </NxActorDesc>
+        </NxSceneDesc>
+    </NxuPhysicsCollection>
+</NXUSTREAM2>

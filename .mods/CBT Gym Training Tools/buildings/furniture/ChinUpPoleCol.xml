@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<NXUSTREAM2>
+    <NxuPhysicsCollection id="D:\Kenshi Omat viritykset\ChinUpPoleCol.xml" nxuVersion="103" sdkVersion="284">
+        <NxSceneDesc hasFilter="false" hasLimits="false" hasMaxBounds="false" id="collision">
+            <NxActorDesc hasBody="false" id="name" name="Cube.005">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 3.263428 20.154575</globalPose>
+                <NxBoxShapeDesc dimensions="6.443914 0.960655 11.216519"/>
+            </NxActorDesc>
+        </NxSceneDesc>
+    </NxuPhysicsCollection>
+</NXUSTREAM2>
