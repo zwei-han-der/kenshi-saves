@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" layer="Middle" name="Root">
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0.30156248807907104 0.11944444477558136 0.41354167461395264 0.56666666269302368" name="TradePanel">
+            <Property key="Caption" value="Character Selection"/>
+            <Widget type="ScrollView" skin="Kenshi_ScrollViewEmpty" position_real="0.012594458647072315 0.065359480679035187 0.97984886169433594 0.85947710275650024" align="Stretch" name="CharacterSelectionItemBox">
+                <Property key="NeedDragDrop" value="false"/>
+                <Property key="CanvasSize" value="779 512"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.8463476300239563 0.93464052677154541 0.14357683062553406 0.0555555559694767" align="Right Bottom" name="ConfirmButton">
+                <Property key="Caption" value="CONFIRM"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.69899243116378784 0.93464052677154541 0.14357683062553406 0.0555555559694767" align="Right Bottom" name="CancelButton">
+                <Property key="Caption" value="CANCEL"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText_Large" position_real="0.0088161211460828781 0.013071895577013493 0.48866498470306396 0.050653595477342606" align="HStretch Top" name="CaptionTextBox">
+                <Property key="Caption" value="TITLE"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_GenericTextBoxFlat" position_real="0.76448363065719604 0.0081699350848793983 0.23425692319869995 0.060457516461610794" align="Right Top">
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.048387095332145691 0.054054055362939835 0.61827957630157471 0.837837815284729" align="Left VCenter" name="lbTotalMoney">
+                    <Property key="Caption" value="Total:"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                </Widget>
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.24731183052062988 0.054054055362939835 0.66666668653488159 0.837837815284729" align="Right VCenter" name="MoneyAmountTextBox">
+                    <Property key="Caption" value="c.1000"/>
+                    <Property key="TextAlign" value="Right VCenter"/>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_GenericTextBoxFlat" position_real="0.020151132717728615 0.94117647409439087 0.125944584608078 0.050653595477342606" align="Left Bottom">
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0 0 0.86000001430511475 0.96774190664291382" name="SelectedTotalTextBox">
+                    <Property key="Caption" value="0 / 0"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_GenericTextBoxFlat" position_real="0.50251889228820801 0.0081699350848793983 0.27078086137771606 0.060457516461610794">
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.041860464960336685 0.054054055362939835 0.66046512126922607 0.837837815284729" align="Left VCenter" name="lbBuyersMoney">
+                    <Property key="Caption" value="Buyer&apos;s money:"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                </Widget>
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.52093023061752319 0.054054055362939835 0.42790699005126953 0.837837815284729" align="Right VCenter" name="TotalMoneyBuyer">
+                    <Property key="Caption" value="c.1000"/>
+                    <Property key="TextAlign" value="Right VCenter"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

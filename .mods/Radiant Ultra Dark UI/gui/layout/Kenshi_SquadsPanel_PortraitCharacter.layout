@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.041666667908430099 0.074074074625968933" name="Root">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Widget type="Widget" skin="WhiteSkin" position_real="0 0 1.1749999523162842 1.1749999523162842" align="Stretch">
+            <Property key="Colour" value="#151515"/>
+            <Property key="Depth" value="5"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.037500001490116119 0.037500001490116119 0.91250002384185791 0.91250002384185791" align="Stretch" name="PortraitImage"/>
+        <Widget type="EditBox" skin="Kenshi_TextboxStandardText" position_real="0.05000000074505806 0.05000000074505806 0.89999997615814209 0.88749998807907104" align="Stretch" name="NameText">
+            <Property key="TextAlign" value="HCenter Bottom"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="0.707602 0.707602 0.707602"/>
+            <Property key="Caption" value="Name"/>
+            <Property key="FontName" value="Kenshi_StandardFont_MediumSmall"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_PortraitFrameSkin" position_real="-0.037500001490116119 -0.02500000037252903 1.0625 1.0499999523162842" align="Stretch" name="BorderPanel">
+            <Property key="StateSelected" value="true"/>
+            <Property key="Colour" value="0 0 0"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

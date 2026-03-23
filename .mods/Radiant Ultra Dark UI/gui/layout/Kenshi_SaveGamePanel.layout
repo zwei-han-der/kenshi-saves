@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0 0 0.3541666567325592 0.30092594027519226" align="Default" layer="Window" name="Root">
+        <Property key="Depth" value="1"/>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.011764706112444401 0.030769230797886848 0.97794115543365479 0.10461538285017014" align="HStretch Top" name="lbTitle">
+            <Property key="Caption" value="SAVE GAME"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Large"/>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.65882354974746704 0.13230769336223602 0.32205882668495178 0.51076924800872803" align="Right Top">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.013698630034923553 0.030120482668280602 0.9452054500579834 0.9337349534034729" align="Stretch" name="InfoPanel"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button1" position_real="0.66470587253570557 0.83692306280136108 0.15441176295280457 0.12923076748847961" align="Right Bottom" name="SaveButton">
+            <Property key="Caption" value="SAVE"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button1" position_real="0.8279411792755127 0.83692306280136108 0.15294118225574493 0.12615384161472321" align="Right Bottom" name="CancelButton">
+            <Property key="Caption" value="CANCEL"/>
+        </Widget>
+        <Widget type="MultiListBox" skin="Kenshi_MultiListBox" position_real="0.017647059634327888 0.12923076748847961 0.63529413938522339 0.70769232511520386" align="Stretch" name="GamesList"/>
+        <Widget type="EditBox" skin="Kenshi_EditBox" position_real="0.020588235929608345 0.83692306280136108 0.63235294818878174 0.12615384161472321" align="HStretch Bottom" name="SaveEditBox"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

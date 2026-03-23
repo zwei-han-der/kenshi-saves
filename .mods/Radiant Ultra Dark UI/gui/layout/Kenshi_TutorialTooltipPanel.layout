@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position="0 0 250 25" align="Stretch" name="Root">
+        <Widget type="Button" skin="Kenshi_Button2" position="0 -1 226 27" align="Stretch" name="NameButton">
+            <Property key="Caption" value="What can I do?"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_CloseButtonSkin" position="223 0 28 27" align="Right VStretch" name="CloseButton">
+            <Property key="Caption" value=""/>
+            <Property key="TextColour" value="0.8 0.266 0.266"/>
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

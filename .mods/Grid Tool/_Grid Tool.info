@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>2630297663</id>
+  <mod>Grid Tool</mod>
+  <title>Grid Tool</title>
+  <tags>
+    <string>Buildings</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2023-05-15T19:32:53.2896283+09:00</lastUpdate>
+</ModData>

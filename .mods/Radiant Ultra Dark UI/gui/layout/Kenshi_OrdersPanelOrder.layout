@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position="0 0 278 25" name="Root">
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Widget type="Widget" skin="Kenshi_Button1" position_real="0 -0.039999999105930328 0.92446041107177734 1.0399999618530273" align="Stretch">
+            <Property key="NeedKey" value="false"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="10 0 233 22" align="Stretch" name="OrderText">
+            <Property key="Caption" value="#afa68b1: This is an order"/>
+            <Property key="NeedKey" value="false"/>
+            <Property key="NeedMouse" value="false"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_CloseButtonSkin" position_real="0.91366904973983765 -0.039999999105930328 0.08992806077003479 1" align="Right" name="RemoveButton">
+            <Property key="Caption" value=""/>
+            <Property key="TextColour" value="0.8 0.266 0.266"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

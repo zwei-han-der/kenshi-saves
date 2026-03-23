@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>2413573637</id>
+  <mod>GenMod_CropFences_Comp</mod>
+  <title>GenMod - Better Crop Fences (New Version)</title>
+  <tags>
+    <string>Buildings</string>
+    <string>Environment/Map</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2021-03-03T15:51:09.6297974+01:00</lastUpdate>
+</ModData>

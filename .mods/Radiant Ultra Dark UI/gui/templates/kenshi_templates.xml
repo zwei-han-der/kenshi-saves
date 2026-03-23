@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource">
+    <Resource type="ResourceLayout" name="Kenshi_Button1" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_Button1Skin" position="20 25 29 26" name="Root">
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+            <Property key="TextAlign" value="Center"/>
+            <UserString key="LE_TargetWidgetType" value="Button"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_Button2" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_Button1Skin" position="20 25 29 26" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Medium"/>
+            <Property key="TextAlign" value="Center"/>
+            <UserString key="LE_TargetWidgetType" value="Button"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TickButton1" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_TickButton1Skin" position="20 25 29 26" name="Root">
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+            <Property key="TextAlign" value="Center"/>
+            <UserString key="LE_TargetWidgetType" value="Button"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TickButton2" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_TickButton1Skin" position="20 25 29 26" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Medium"/>
+            <Property key="TextAlign" value="Center"/>
+            <UserString key="LE_TargetWidgetType" value="Button"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_FloatingPanelLight" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position="0 0 195 160" name="Root">
+            <Widget type="Widget" skin="Kenshi_GenericTextBox" position="5 5 185 150" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="15 15 155 120" align="Stretch" name="Datapanel"/>
+            </Widget>
+        </Widget>
+        <CodeGeneratorSettings/>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ProgressBarFill" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 150 20" name="Root">
+            <Property key="MoveToClick" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="ProgressBar"/>
+            <UserString key="TrackFill" value="true"/>
+            <UserString key="TrackSkin" value="Kenshi_ProgressBarFilledSkin"/>
+            <UserString key="TrackWidth" value="1"/>
+            <Widget type="Widget" skin="Kenshi_ProgressBarEmptySkin" position="10 2 131 15" align="Stretch"/>
+            <Widget type="Widget" skin="PanelEmpty" position="11 3 129 13" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_ProgressBarSkin" position="0 0 150 20" align="Stretch">
+                <Property key="Depth" value="0"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_SquadTabButton" version="3.2.0">
+        <Widget type="Button" skin="Kenshi_Button1Skin" position="0 0 95 41" align="Stretch" name="Root">
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+            <Property key="TextAlign" value="Center"/>
+            <Widget type="ImageBox" skin="ImageBox" position="2 2 91 37" align="Stretch" name="Image">
+                <Property key="ImageResource" value="Kenshi_SquadButtonCombatImage"/>
+                <Property key="ImageGroup" value="Group1"/>
+                <Property key="ImageName" value="Index1"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedToolTip" value="false"/>
+                <Property key="Visible" value="false"/>
+                <Property key="Alpha" value="0"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_SquadTabControl" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 716 220" name="Root">
+            <UserString key="LE_TargetWidgetType" value="TabControl"/>
+            <UserString key="ButtonSkin" value="Kenshi_SquadTabButton"/>
+            <Widget type="Widget" skin="PanelEmpty" position="20 0 670 37" align="HStretch Top" name="HeaderPlace">
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 645 37" align="Stretch" name="Empty"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_SquadPanelSkin" position="0 32 716 185" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="14 13 690 159" align="Stretch" name="TabItem"/>
+            </Widget>
+        </Widget>
+        <CodeGeneratorSettings/>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TabControl" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="130 70 245 189" name="Root">
+            <UserString key="LE_TargetWidgetType" value="TabControl"/>
+            <UserString key="ButtonSkin" value="Kenshi_SquadTabButton"/>
+            <Widget type="Widget" skin="PanelEmpty" position="5 0 235 45" align="HStretch Top" name="HeaderPlace">
+                <Widget type="Widget" skin="PanelEmpty" position="5 0 225 45" align="Stretch" name="Empty"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position="0 35 245 153" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="5 5 235 142" align="Stretch" name="TabItem"/>
+            </Widget>
+        </Widget>
+        <CodeGeneratorSettings/>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TabControlEmpty" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 150 125" name="Root">
+            <UserString key="LE_TargetWidgetType" value="TabControl"/>
+            <UserString key="ButtonSkin" value="Kenshi_Button1"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 150 35" align="HStretch Top" name="HeaderPlace">
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 150 35" align="Stretch" name="Empty"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position="0 35 150 89" align="Stretch" name="TabItem"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollBar" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 260 50" name="Root">
+            <Property key="VerticalAlignment" value="false"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Widget" skin="Kenshi_SliderSkin" position="28 9 203 30" align="Stretch" name="Slider"/>
+            <Widget type="Widget" skin="PanelEmpty" position="27 0 204 51" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Button" skin="Kenshi_SliderButtonSkin" position="87 -3 27 57" align="Left VStretch" name="Track">
+                    <UserString key="MinTrackSize" value="10"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 91 51" align="Left VStretch" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="110 0 94 51" align="Left VStretch" name="SecondPart"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_SpeedArrowLeftSkin" position="0 0 29 51" align="Left VStretch" name="Start"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowRightSkin" position="230 0 31 51" align="Right VStretch" name="End"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollBarV" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_TextBoxEmptySkin" position="0 0 17 95" name="Root">
+            <Property key="VerticalAlignment" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 14 17 69" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Button" skin="Kenshi_SmallBarSkin" position="0 25 17 7" align="HStretch Top" name="Track">
+                    <UserString key="MinTrackSize" value="10"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 17 25" align="HStretch Top" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="0 32 17 67" align="HStretch Top" name="SecondPart"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_SmallArrowUpSkin" position="0 2 17 12" align="HCenter Top" name="Start"/>
+            <Widget type="Button" skin="Kenshi_SmallArrowDownSkin" position="0 85 17 12" align="HCenter Bottom" name="End"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollBarH" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_ScrollBarH" position="0 0 230 18" name="Root">
+            <Property key="VerticalAlignment" value="false"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Widget" skin="PanelEmpty" position="11 1 204 16" align="HStretch Top" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Button" skin="Kenshi_SmallBarHSkin" position="90 1 7 16" align="Left VStretch" name="Track">
+                    <UserString key="MinTrackSize" value="10"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 91 16" align="Left VStretch" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="97 0 107 16" align="Left VStretch" name="SecondPart"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_SmallArrowLeftSkin" position="0 0 11 18" align="Left VCenter" name="Start"/>
+            <Widget type="Button" skin="Kenshi_SmallArrowRightSkin" position="216 0 13 18" align="Right VCenter" name="End"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollBarVBig" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 50 195" name="Root">
+            <Property key="VerticalAlignment" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Button" skin="Kenshi_FloorArrowUpSkin" position="0 0 50 34" align="HCenter Top" name="Start"/>
+            <Widget type="Button" skin="Kenshi_FloorArrowDownSkin" position="0 163 49 31" align="HCenter Bottom" name="End"/>
+            <Widget type="Widget" skin="Kenshi_ScrollerVerticalSkin" position="20 35 10 125" align="Stretch"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 30 50 135" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Button" skin="Kenshi_VScrollerButtonSkin" position="0 45 50 25" align="HStretch Top" name="Track">
+                    <UserString key="MinTrackSize" value="10"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 50 45" align="HStretch Top" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="0 70 50 64" align="HStretch Top" name="SecondPart"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_SliderVBig" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 32 159" name="Root">
+            <Property key="VerticalAlignment" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Button" skin="Kenshi_SmallScrollArrowUpSkin" position="0 0 32 27" align="Left Top" name="Start"/>
+            <Widget type="Button" skin="Kenshi_SmallScrollArrowDownSkin" position="0 132 32 27" align="Left Bottom" name="End"/>
+            <Widget type="Widget" skin="Kenshi_ScrollerVerticalSkin" position="10 25 10 109" align="Left VStretch"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 25 32 107" align="Left VStretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Button" skin="Kenshi_HScrollerButtonSkin" position="2 20 27 57" align="Default" name="Track">
+                    <UserString key="MinTrackSize" value="10"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 32 20" align="HStretch Top" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="0 78 32 29" align="Left VStretch" name="SecondPart"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollBarHBig" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 260 50" name="Root">
+            <Property key="VerticalAlignment" value="false"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowLeftSkin" position="0 0 29 51" align="Left VCenter" name="Start"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowRightSkin" position="230 0 31 51" align="Right VCenter" name="End"/>
+            <Widget type="Widget" skin="Kenshi_SliderSkin" position="28 9 203 30" align="Stretch" name="Slider"/>
+            <Widget type="Widget" skin="PanelEmpty" position="27 0 204 51" align="HStretch Top" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Button" skin="Kenshi_HScrollerButtonSkin" position="87 -3 27 57" align="Left VStretch" name="Track">
+                    <UserString key="MinTrackSize" value="10"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 91 51" align="Left VStretch" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="110 0 94 51" align="Left VStretch" name="SecondPart"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_SliderHBig" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 155 33" name="Root">
+            <Property key="VerticalAlignment" value="false"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Button" skin="Kenshi_SmallScrollArrowLeftSkin" position="0 0 24 34" align="Left Top" name="Start"/>
+            <Widget type="Button" skin="Kenshi_SmallScrollArrowRightSkin" position="130 0 24 34" align="Right Top" name="End"/>
+            <Widget type="Widget" skin="Kenshi_SliderSkin" position="25 2 103 30" align="HStretch Top" name="Slider"/>
+            <Widget type="Widget" skin="PanelEmpty" position="25 0 103 30" align="HStretch Top" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Button" skin="Kenshi_VScrollerButtonSkin" position="25 4 54 24" align="Left VStretch" name="Track">
+                    <UserString key="MinTrackSize" value="10"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 25 30" align="Left VStretch" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="79 0 24 30" align="Stretch" name="SecondPart"/>
+            </Widget>
+        </Widget>
+        <CodeGeneratorSettings/>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollView" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position="0 0 190 185" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ScrollView"/>
+            <Widget type="Widget" skin="PanelEmpty" position="10 10 155 140" align="Stretch" name="Client"/>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="166 10 15 140" align="Right VStretch" name="VScroll"/>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarH" position="10 156 155 20" align="HStretch Bottom" name="HScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollViewMap" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position="0 0 190 185" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ScrollView"/>
+            <Widget type="Widget" skin="WhiteSkin" position="10 10 150 145" align="Stretch" name="Client">
+                <Property key="Colour" value="0.43137 0.48627 0.47451"/>
+            </Widget>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="162 10 20 150" align="Right VStretch" name="VScroll"/>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarH" position="10 156 155 20" align="HStretch Bottom" name="HScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollViewEmpty" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 135 130" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ScrollView"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 115 110" align="Stretch" name="Client"/>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="117 0 16 110" align="Right VStretch" name="VScroll"/>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarH" position="0 110 115 20" align="HStretch Bottom" name="HScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollViewEmptyLight" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 200 180" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ScrollView"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 168 147" align="Stretch" name="Client"/>
+            <Widget type="ScrollBar" skin="Kenshi_SliderVBig" position="168 0 32 147" align="Right VStretch" name="VScroll"/>
+            <Widget type="ScrollBar" skin="Kenshi_SliderHBig" position="0 147 168 33" align="HStretch Bottom" name="HScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ScrollViewEmptyEditor" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="8 8 82 47" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ScrollView"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 32 32" align="Stretch" name="Client"/>
+            <Widget type="ScrollBar" skin="Kenshi_SliderVBig" position="32 0 50 32" align="Right VStretch" name="VScroll"/>
+            <Widget type="ScrollBar" skin="ScrollBarH" position="0 32 32 15" align="HStretch Bottom" name="HScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_BehaviorSlider" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="130 110 56 80" name="Root">
+            <Property key="VerticalAlignment" value="true"/>
+            <Property key="Range" value="3"/>
+            <UserString key="LE_TargetWidgetType" value="ScrollBar"/>
+            <Widget type="Widget" skin="Kenshi_BehaviorSliderSkin" position="15 0 27 81"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 56 80" align="Stretch" name="TrackPlace">
+                <Property key="NeedKey" value="false"/>
+                <Property key="InheritsPick" value="true"/>
+                <Widget type="Button" skin="Kenshi_BehaviorButtonSkin" position="0 25 56 27" align="HStretch Top" name="Track">
+                    <UserString key="MinTrackSize" value="10"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 56 25" align="HStretch Top" name="FirstPart"/>
+                <Widget type="Widget" skin="PanelEmpty" position="0 52 56 28" align="HStretch Top" name="SecondPart"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_Window" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 360 320" name="Root">
+            <Property key="Snap" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="Window"/>
+            <Widget type="Widget" skin="Kenshi_GenericWindowSkin" position="0 38 360 281" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="3 3 354 275" align="Stretch" name="Client"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_GenericWindowHeaderSkin" position="0 0 360 38" align="HStretch Top"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WindowC" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 360 320" name="Root">
+            <Property key="Snap" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="Window"/>
+            <Widget type="Widget" skin="Kenshi_GenericWindowSkin" position="0 38 360 281" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="3 3 354 275" align="Stretch" name="Client"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_GenericWindowHeaderSkin" position="0 0 360 38" align="HStretch Top">
+                <Widget type="EditBox" skin="Kenshi_TextboxPaintedText" position="3 3 353 36" align="Stretch" name="Caption">
+                    <Property key="Caption" value="Caption"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="WordWrap" value="true"/>
+                    <Property key="Static" value="true"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WindowCX" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 360 320" name="Root">
+            <Property key="Snap" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="Window"/>
+            <Widget type="Widget" skin="Kenshi_GenericWindowSkin" position="0 38 360 281" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="3 3 354 275" align="Stretch" name="Client"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_GenericWindowHeaderSkin" position="0 0 360 38" align="HStretch Top">
+                <Widget type="Button" skin="Kenshi_CloseButtonSkin" position="320 5 31 32" align="Right Top" name="Button">
+                    <UserString key="Event" value="close"/>
+                </Widget>
+                <Widget type="EditBox" skin="Kenshi_TextboxPaintedText" position="3 3 315 36" align="Stretch" name="Caption">
+                    <Property key="Caption" value="Caption"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="WordWrap" value="true"/>
+                    <Property key="Static" value="true"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WindowCXP" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 360 320" name="Root">
+            <Property key="Snap" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="Window"/>
+            <Widget type="Widget" skin="Kenshi_GenericWindowSkin" position="0 38 360 281" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="3 3 354 275" align="Stretch" name="Client"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_GenericWindowHeaderSkin" position="0 0 360 38" align="HStretch Top">
+                <Widget type="Button" skin="Kenshi_CloseButtonSkin" position="320 5 31 32" align="Right Top" name="Button">
+                    <UserString key="Event" value="close"/>
+                </Widget>
+                <Widget type="Button" skin="Kenshi_PinButtonSkin" position="290 4 31 32" align="Right Top" name="Button">
+                    <UserString key="Event" value="pin"/>
+                </Widget>
+                <Widget type="EditBox" skin="Kenshi_TextboxPaintedText" position="3 3 285 36" align="Stretch" name="Caption">
+                    <Property key="Caption" value="Caption"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="WordWrap" value="true"/>
+                    <Property key="Static" value="true"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <CodeGeneratorSettings/>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WindowCXM" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 360 320" name="Root">
+            <Property key="Snap" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="Window"/>
+            <Widget type="Widget" skin="Kenshi_GenericWindowSkin" position="0 38 360 281" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="3 3 354 275" align="Stretch" name="Client"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_GenericWindowHeaderSkin" position="0 0 360 38" align="HStretch Top">
+                <Widget type="Button" skin="Kenshi_CloseButtonSkin" position="320 5 31 32" align="Right Top" name="Button">
+                    <UserString key="Event" value="close"/>
+                </Widget>
+                <Widget type="Button" skin="Kenshi_MinimizeButtonSkin" position="290 4 32 32" align="Right Top" name="Button">
+                    <UserString key="Event" value="minimize"/>
+                </Widget>
+                <Widget type="EditBox" skin="Kenshi_TextboxPaintedText" position="3 3 285 36" align="Stretch" name="Caption">
+                    <Property key="Caption" value="Caption"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="WordWrap" value="true"/>
+                    <Property key="Static" value="true"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <CodeGeneratorSettings/>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_InventoryWindowCXP" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 504 598" name="Root">
+            <Property key="Snap" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="Window"/>
+            <Widget type="Widget" skin="Kenshi_InventoryWindowSkin" position="0 38 504 559" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="3 3 498 553" align="Stretch" name="Client"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_InventoryWindowHeaderSkin" position="0 0 504 38" align="HStretch Top">
+                <Widget type="Button" skin="Kenshi_CloseButtonSkin" position="466 7 30 29" align="Right Top" name="Button">
+                    <UserString key="Event" value="close"/>
+                </Widget>
+                <Widget type="Button" skin="Kenshi_PinButtonSkin" position="439 6 30 29" align="Right Top" name="Button">
+                    <UserString key="Event" value="pin"/>
+                </Widget>
+                <Widget type="EditBox" skin="Kenshi_TextboxPaintedText" position="3 4 432 36" align="Stretch" name="Caption">
+                    <Property key="Caption" value="Caption"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="WordWrap" value="true"/>
+                    <Property key="Static" value="true"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <CodeGeneratorSettings/>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_GenericTextBoxFlat" version="3.2.0">
+        <Widget type="TextBox" skin="Kenshi_TextBoxEmptySkin" position="0 0 160 41" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Medium"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextColour" value="#9c9c9c"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_GenericTextBoxFlatSmall" version="3.2.0">
+        <Widget type="TextBox" skin="Kenshi_TextBoxEmptySkin" position="0 0 160 41" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Medium"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextColour" value="#9c9c9c"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_GenericTextBox" version="3.2.0">
+        <Widget type="EditBox" skin="Kenshi_TextBoxEmptySkin" position="0 0 120 100" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Medium"/>
+            <Property key="WordWrap" value="true"/>
+            <Property key="Static" value="true"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TextboxPaintedText" version="3.2.0">
+        <Widget type="TextBox" skin="Kenshi_TextBoxEmptySkin" position="0 0 70 20" name="Root">
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+            <Property key="TextColour" value="#9c9c9c"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TextboxPaintedText_Large" version="3.2.0">
+        <Widget type="TextBox" skin="Kenshi_TextBoxEmptySkin" position="0 0 70 20" name="Root">
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Large"/>
+            <Property key="TextColour" value="#9c9c9c"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TextboxStandardText_Small" version="3.2.0">
+        <Widget type="Textbox" skin="Kenshi_TextBoxEmptySkin" position="0 0 70 20" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Small"/>
+            <Property key="TextColour" value="#9c9c9c"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TextboxStandardText" version="3.2.0">
+        <Widget type="Textbox" skin="Kenshi_TextBoxEmptySkin" position="0 0 70 20" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Medium"/>
+            <Property key="TextColour" value="#9c9c9c"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_EditBoxStandardText" version="3.2.0">
+        <Widget type="Textbox" skin="Kenshi_EditBoxEmptySkin" position="0 0 70 20" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Medium"/>
+            <Property key="TextColour" value="#9c9c9c"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_EditBoxPaintedText" version="3.2.0">
+        <Widget type="Textbox" skin="Kenshi_EditBoxEmptySkin" position="0 0 70 20" name="Root">
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+            <Property key="TextColour" value="#9c9c9c"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TextboxStandardText_Large" version="3.2.0">
+        <Widget type="Textbox" skin="Kenshi_TextBoxEmptySkin" position="0 0 70 20" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Large"/>
+            <Property key="TextColour" value="#9c9c9c"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ItemBoxEmpty" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="7 7 103 93" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ItemBox"/>
+            <UserString key="DragLayer" value="DragAndDrop"/>
+            <Widget type="Widget" skin="PanelEmpty" position="1 1 87 77" align="Stretch" name="Client"/>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="88 1 15 77" align="Right VStretch" name="VScroll"/>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarH" position="1 78 87 15" align="HStretch Bottom" name="HScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_EditBox" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_GenericInputBoxSkin" position="0 0 140 32" name="Root">
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="10 5 120 20" align="HStretch VCenter" name="Client">
+                <Property key="Pointer" value="beam"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_EditBoxStrechEmpty" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 160 130" name="Root">
+            <Property key="MultiLine" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="5 5 140 125" align="Stretch" name="Client">
+                <Property key="TextAlign" value="Default"/>
+                <Property key="Pointer" value="beam"/>
+            </Widget>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="145 0 15 130" align="Right VStretch" name="VScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WordWrap" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position="0 0 32 32" name="Root">
+            <Property key="WordWrap" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_EditBoxStandardText" position="10 10 2 2" align="Stretch" name="Client">
+                <Property key="TextAlign" value="Default"/>
+            </Widget>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="9 6 14 18" align="Right VStretch" name="VScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WordWrap1" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_GenericInputBoxSkin" position="0 0 32 32" name="Root">
+            <Property key="WordWrap" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_EditBoxStandardText" position="10 10 2 2" align="Stretch" name="Client">
+                <Property key="TextAlign" value="Default"/>
+            </Widget>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="9 6 14 18" align="Right VStretch" name="VScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WordWrap2" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 32 32" name="Root">
+            <Property key="WordWrap" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_EditBoxStandardText" position="10 10 2 2" align="Stretch" name="Client">
+                <Property key="TextAlign" value="Default"/>
+            </Widget>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="9 6 14 18" align="Right VStretch" name="VScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WordWrap3" version="3.2.0">
+        <Widget type="Widget" skin="DarkUI_editbox" position="0 0 32 32" name="Root">
+            <Property key="WordWrap" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_EditBoxStandardText" position="10 10 2 2" align="Stretch" name="Client">
+                <Property key="TextAlign" value="Default"/>
+            </Widget>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="9 6 14 18" align="Right VStretch" name="VScroll"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WordWrapEmpty" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="65 10 16 16" name="Root">
+            <Property key="WordWrap" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="0 0 16 16" align="Stretch" name="Client">
+                <Property key="TextAlign" value="Default"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_WordWrapEmpty_StandardText_Large" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="65 10 16 16" name="Root">
+            <Property key="WordWrap" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxStandardText_Large" position="0 0 16 16" align="Stretch" name="Client">
+                <Property key="TextAlign" value="Default"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_PaintedWordWrapEmpty" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="65 10 16 16" name="Root">
+            <Property key="WordWrap" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position="0 0 16 16" align="Stretch" name="Client">
+                <Property key="TextAlign" value="Default"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_TitleWordWrapEmpty" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="65 10 16 16" name="Root">
+            <Property key="WordWrap" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="EditBox"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText_Large" position="0 0 16 16" align="Stretch" name="Client">
+                <Property key="TextAlign" value="Default"/>
+                <Property key="TextColour" value="#9c9c9c"/>
+                <Property key="TextShadow" value="true"/>
+                <Property key="TextShadowColour" value="0 0 0"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ListBoxItem" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_ListBoxItemSkin" position="20 20 43 13" name="Root">
+            <Property key="FontName" value="Kenshi_StandardFont_Medium"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <UserString key="LE_TargetWidgetType" value="Button"/>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ListBox" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position="5 5 165 135" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ListBox"/>
+            <UserString key="HeightLine" value="18"/>
+            <UserString key="SkinLine" value="Kenshi_ListBoxItem"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 0 165 135" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="15 20 120 95" align="Stretch" name="Client"/>
+                <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="140 20 17 95" align="Right VStretch" name="VScroll"/>
+            </Widget>
+        </Widget>
+        <CodeGeneratorSettings/>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ListBoxEmpty" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_TextBoxEmptySkin" position="0 0 188 104" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ListBox"/>
+            <UserString key="HeightLine" value="18"/>
+            <UserString key="SkinLine" value="Kenshi_ListBoxItem"/>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.101064 0.173077 0.829787 0.653846" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.891026 1" align="Stretch" name="Client"/>
+                <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position_real="0.891026 0 0.108974 1" align="Right VStretch" name="VScroll"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_MultiListButton" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_Button1Skin" position="0 0 80 30" name="Root">
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+            <Property key="TextAlign" value="Center"/>
+            <UserString key="LE_TargetWidgetType" value="Button"/>
+            <Widget type="ImageBox" skin="ImageBox" position="58 8 16 13" align="Right VCenter" name="Image">
+                <Property key="ImageResource" value="Kenshi_MiscImages"/>
+                <Property key="ImageGroup" value="Arrows"/>
+                <Property key="ImageName" value="Down"/>
+                <Property key="NeedMouse" value="false"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_MultiSubListBox" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 190 100" name="Root">
+            <UserString key="LE_TargetWidgetType" value="ListBox"/>
+            <UserString key="HeightLine" value="21"/>
+            <UserString key="SkinLine" value="Kenshi_ListBoxItem"/>
+            <Widget type="Widget" skin="PanelEmpty" position="5 5 180 90" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 160 90" align="Stretch" name="Client"/>
+                <Widget type="ScrollBar" skin="Kenshi_ScrollBarV" position="163 0 15 90" align="Right VStretch" name="VScroll"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_MultiListBox" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position="0 0 110 105" name="Root">
+            <UserString key="LE_TargetWidgetType" value="MultiListBox"/>
+            <UserString key="SkinButton" value="Kenshi_MultiListButton"/>
+            <UserString key="SkinList" value="Kenshi_MultiSubListBox"/>
+            <Widget type="Widget" skin="Kenshi_TextboxStandardText" position="5 35 100 63" align="Stretch" name="Client"/>
+            <Widget type="Widget" skin="PanelEmpty" position="5 5 100 30" align="HStretch Top" name="HeaderPlace">
+                <Widget type="Widget" skin="PanelEmpty" position="0 0 100 30" name="Empty"/>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ComboBox" version="3.2.0">
+        <Widget type="Widget" skin="Kenshi_GenericInputBoxSkin" position="0 0 170 32" name="Root">
+            <Property key="MaxListLength" value="200"/>
+            <Property key="SmoothShow" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="ComboBox"/>
+            <Widget type="Button" skin="Kenshi_SmallArrowDownSkin" position="145 12 14 11" align="Right VCenter" name="Button"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="14 8 126 20" align="HStretch Top" name="Client">
+                <Property key="Pointer" value="beam"/>
+            </Widget>
+            <Widget type="ListBox" skin="Kenshi_ListBox" position="-1 30 172 125" style="Popup" layer="Popup" name="List">
+                <Property key="Visible" value="false"/>
+            </Widget>
+        </Widget>
+        <CodeGeneratorSettings/>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_Slider" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 455 55" name="Root">
+            <Widget type="Widget" skin="PanelEmpty" position="0 5 144 45" align="Left VStretch">
+                <Property key="NeedMouse" value="false"/>
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="0 0 144 45" align="Stretch" name="ElementText">
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="Caption" value="Element"/>
+                </Widget>
+            </Widget>
+            <Widget type="ScrollBar" skin="Kenshi_ScrollBar" position="145 2 246 50" align="Stretch" name="Slider">
+                <Property key="Range" value="100"/>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_SpeedTextboxSkin" position="395 9 60 36" align="Right VStretch">
+                <Property key="NeedMouse" value="false"/>
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0 0 1 1" align="Stretch" name="NumberText">
+                    <Property key="Caption" value="100"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_ListSlider" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 455 55" name="Root">
+            <Widget type="Button" skin="Kenshi_SpeedArrowLeftSkin" position="145 2 29 51" align="Left VStretch" name="Start"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowRightSkin" position="365 2 31 51" align="Right VStretch" name="End"/>
+            <Widget type="Widget" skin="PanelEmpty" position="0 5 144 45" align="Left VStretch">
+                <Property key="NeedMouse" value="false"/>
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="0 0 144 45" align="Stretch" name="ElementText">
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="Caption" value="Element"/>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="Kenshi_SpeedTextboxSkin" position="395 0 60 55" align="Right VStretch">
+                <Property key="NeedMouse" value="false"/>
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="0 0 60 55" align="Stretch" name="NumberText">
+                    <Property key="Caption" value="2/5"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position="175 7 190 41" align="Stretch">
+                <Property key="NeedMouse" value="false"/>
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0 0 1 1" align="Stretch" name="ElementValueText">
+                    <Property key="Caption" value="Element Value"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_MultiSlider" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 455 220" name="Root">
+            <UserString key="SlidersCount" value="3"/>
+            <Widget type="Slider" skin="Kenshi_Slider" position="0 45 455 55" align="Stretch" name="Slider1"/>
+            <Widget type="Slider" skin="Kenshi_Slider" position="0 105 455 55" align="Stretch" name="Slider2"/>
+            <Widget type="Slider" skin="Kenshi_Slider" position="0 165 455 55" align="Stretch" name="Slider3"/>
+            <Widget type="Widget" skin="PanelEmpty" position="128 0 200 40" align="Stretch">
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="0 0 200 40" align="Stretch" name="Name">
+                    <Property key="Caption" value="Name"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Resource>
+    <Resource type="ResourceLayout" name="Kenshi_MultiSliderSmall" version="3.2.0">
+        <Widget type="Widget" skin="PanelEmpty" position="0 0 455 123" name="Root">
+            <UserString key="SlidersCount" value="3"/>
+            <Widget type="Slider" skin="Kenshi_Slider" position="0 35 455 44" align="Stretch" name="Slider1"/>
+            <Widget type="Slider" skin="Kenshi_Slider" position="0 79 455 44" align="Stretch" name="Slider2"/>
+            <Widget type="Slider" skin="Kenshi_Slider" position="0 123 455 44" align="Stretch" name="Slider3"/>
+            <Widget type="Widget" skin="PanelEmpty" position="128 0 200 32" align="Stretch">
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position="0 0 200 32" align="Stretch" name="Name">
+                    <Property key="Caption" value="Name"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Resource>
+</MyGUI>

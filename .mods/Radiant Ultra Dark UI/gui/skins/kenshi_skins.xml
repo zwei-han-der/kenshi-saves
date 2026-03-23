@@ -1,0 +1,1451 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceSkin" name="Kenshi_NamePanelSkin" size="330 65" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 330 65" align="Stretch">
+			<State name="normal" offset="0 580 330 65"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_HealthPanelTopSkin" size="280 325" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 280 325" align="Stretch">
+			<State name="normal" offset="279 755 280 325"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SquadPanelSkin" size="714 188" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 42 39" align="Left Top">
+			<State name="normal" offset="601 878 42 39"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="42 0 617 39" align="HStretch Top">
+			<State name="normal" offset="643 878 617 39"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="659 0 55 39" align="Right Top">
+			<State name="normal" offset="1260 878 55 39"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="659 39 55 82" align="Right VStretch">
+			<State name="normal" offset="1260 917 55 82"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="659 121 55 67" align="Right Bottom">
+			<State name="normal" offset="1260 999 55 67"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="42 121 617 67" align="HStretch Bottom">
+			<State name="normal" offset="643 999 617 67"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 121 42 67" align="Left Bottom">
+			<State name="normal" offset="601 999 42 67"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 39 42 82" align="Left VStretch">
+			<State name="normal" offset="601 917 42 82"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="42 39 617 82" align="Stretch">
+			<State name="normal" offset="643 917 617 82"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_InventoryPanelSkin" size="74 261" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 74 261" align="Stretch">
+			<State name="normal" offset="1331 808 74 261"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_FloorPanelSkin" size="101 101" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 101 101" align="Stretch">
+			<State name="normal" offset="1306 702 101 101"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_OrdersPanelSkin" size="483 261" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 483 261" align="Stretch">
+			<State name="normal" offset="1423 808 483 261"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_FloorArrowUpSkin" size="50 34" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 50 34" align="Stretch">
+			<State name="disabled" offset="750 718 50 34"/>
+			<State name="normal" offset="751 718 50 34"/>
+			<State name="highlighted" offset="751 677 50 34"/>
+			<State name="pushed" offset="751 635 50 34"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_Button1Skin" size="118 45" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 6 6" align="Left Top">
+			<State name="disabled" offset="612 766 6 6"/>
+			<State name="normal" offset="612 766 6 6"/>
+			<State name="highlighted" offset="612 766 6 6"/>
+			<State name="pushed" offset="741 766 6 6"/>
+			<State name="disabled_checked" offset="612 766 6 6"/>
+			<State name="normal_checked" offset="612 766 6 6"/>
+			<State name="highlighted_checked" offset="612 766 6 6"/>
+			<State name="pushed_checked" offset="741 766 6 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 0 106 6" align="HStretch Top">
+			<State name="disabled" offset="618 766 106 6"/>
+			<State name="normal" offset="618 766 106 6"/>
+			<State name="highlighted" offset="618 766 106 6"/>
+			<State name="pushed" offset="747 766 106 6"/>
+			<State name="disabled_checked" offset="618 766 106 6"/>
+			<State name="normal_checked" offset="618 766 106 6"/>
+			<State name="highlighted_checked" offset="618 766 106 6"/>
+			<State name="pushed_checked" offset="747 766 106 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="112 0 6 6" align="Right Top">
+			<State name="disabled" offset="724 766 6 6"/>
+			<State name="normal" offset="724 766 6 6"/>
+			<State name="highlighted" offset="724 766 6 6"/>
+			<State name="pushed" offset="853 766 6 6"/>
+			<State name="disabled_checked" offset="724 766 6 6"/>
+			<State name="normal_checked" offset="724 766 6 6"/>
+			<State name="highlighted_checked" offset="724 766 6 6"/>
+			<State name="pushed_checked" offset="853 766 6 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="112 6 6 33" align="Right VStretch">
+			<State name="disabled" offset="724 772 6 33"/>
+			<State name="normal" offset="724 772 6 33"/>
+			<State name="highlighted" offset="724 772 6 33"/>
+			<State name="pushed" offset="853 772 6 33"/>
+			<State name="disabled_checked" offset="724 772 6 33"/>
+			<State name="normal_checked" offset="724 772 6 33"/>
+			<State name="highlighted_checked" offset="724 772 6 33"/>
+			<State name="pushed_checked" offset="853 772 6 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="112 39 6 6" align="Right Bottom">
+			<State name="disabled" offset="724 805 6 6"/>
+			<State name="normal" offset="724 805 6 6"/>
+			<State name="highlighted" offset="724 805 6 6"/>
+			<State name="pushed" offset="853 805 6 6"/>
+			<State name="disabled_checked" offset="724 805 6 6"/>
+			<State name="normal_checked" offset="724 805 6 6"/>
+			<State name="highlighted_checked" offset="724 805 6 6"/>
+			<State name="pushed_checked" offset="853 805 6 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 39 106 6" align="HStretch Bottom">
+			<State name="disabled" offset="618 805 106 6"/>
+			<State name="normal" offset="618 805 106 6"/>
+			<State name="highlighted" offset="618 805 106 6"/>
+			<State name="pushed" offset="747 805 106 6"/>
+			<State name="disabled_checked" offset="618 805 106 6"/>
+			<State name="normal_checked" offset="618 805 106 6"/>
+			<State name="highlighted_checked" offset="618 805 106 6"/>
+			<State name="pushed_checked" offset="747 805 106 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 39 6 6" align="Left Bottom">
+			<State name="disabled" offset="612 805 6 6"/>
+			<State name="normal" offset="612 805 6 6"/>
+			<State name="highlighted" offset="612 805 6 6"/>
+			<State name="pushed" offset="741 805 6 6"/>
+			<State name="disabled_checked" offset="612 805 6 6"/>
+			<State name="normal_checked" offset="612 805 6 6"/>
+			<State name="highlighted_checked" offset="612 805 6 6"/>
+			<State name="pushed_checked" offset="741 805 6 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 6 6 33" align="Left VStretch">
+			<State name="disabled" offset="612 772 6 33"/>
+			<State name="normal" offset="612 772 6 33"/>
+			<State name="highlighted" offset="612 772 6 33"/>
+			<State name="pushed" offset="741 772 6 33"/>
+			<State name="disabled_checked" offset="612 772 6 33"/>
+			<State name="normal_checked" offset="612 772 6 33"/>
+			<State name="highlighted_checked" offset="612 772 6 33"/>
+			<State name="pushed_checked" offset="741 772 6 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="6 6 106 33" align="Stretch">
+			<State name="disabled" offset="618 772 106 33"/>
+			<State name="normal" offset="618 772 106 33"/>
+			<State name="highlighted" offset="618 772 106 33"/>
+			<State name="pushed" offset="747 772 106 33"/>
+			<State name="disabled_checked" offset="618 772 106 33"/>
+			<State name="normal_checked" offset="618 772 106 33"/>
+			<State name="highlighted_checked" offset="618 772 106 33"/>
+			<State name="pushed_checked" offset="747 772 106 33"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="3 3 112 39" align="Stretch">
+			<State name="disabled" colour="0 0 0" shift="0"/>
+			<State name="normal" colour="0.4 0.380392 0.356863" shift="0"/>
+			<State name="highlighted" colour="0.505882 0.4 0.207843" shift="0"/>
+			<State name="pushed" colour="0.247059 0.211765 0.176471" shift="0"/>
+			<State name="disabled_checked" colour="0 0 0" shift="0"/>
+			<State name="normal_checked" colour="0.690196 0.678431 0.596078" shift="0"/>
+			<State name="highlighted_checked" colour="0.505882 0.4 0.207843" shift="0"/>
+			<State name="pushed_checked" colour="0.247059 0.211765 0.176471" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_TickButton1Skin" size="108 26" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 20 4" align="Left Top">
+			<State name="disabled" offset="292 723 20 4"/>
+			<State name="normal" offset="292 723 20 4"/>
+			<State name="highlighted" offset="292 723 20 4"/>
+			<State name="pushed" offset="421 723 20 4"/>
+			<State name="disabled_checked" offset="550 723 20 4"/>
+			<State name="normal_checked" offset="550 723 20 4"/>
+			<State name="highlighted_checked" offset="550 723 20 4"/>
+			<State name="pushed_checked" offset="421 723 20 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="20 0 84 4" align="HStretch Top">
+			<State name="disabled" offset="312 723 84 4"/>
+			<State name="normal" offset="312 723 84 4"/>
+			<State name="highlighted" offset="312 723 84 4"/>
+			<State name="pushed" offset="441 723 84 4"/>
+			<State name="disabled_checked" offset="570 723 84 4"/>
+			<State name="normal_checked" offset="570 723 84 4"/>
+			<State name="highlighted_checked" offset="570 723 84 4"/>
+			<State name="pushed_checked" offset="441 723 84 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="104 0 4 4" align="Right Top">
+			<State name="disabled" offset="396 723 4 4"/>
+			<State name="normal" offset="396 723 4 4"/>
+			<State name="highlighted" offset="396 723 4 4"/>
+			<State name="pushed" offset="525 723 4 4"/>
+			<State name="disabled_checked" offset="654 723 4 4"/>
+			<State name="normal_checked" offset="654 723 4 4"/>
+			<State name="highlighted_checked" offset="654 723 4 4"/>
+			<State name="pushed_checked" offset="525 723 4 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="104 4 4 18" align="Right VStretch">
+			<State name="disabled" offset="396 727 4 18"/>
+			<State name="normal" offset="396 727 4 18"/>
+			<State name="highlighted" offset="396 727 4 18"/>
+			<State name="pushed" offset="525 727 4 18"/>
+			<State name="disabled_checked" offset="654 727 4 18"/>
+			<State name="normal_checked" offset="654 727 4 18"/>
+			<State name="highlighted_checked" offset="654 727 4 18"/>
+			<State name="pushed_checked" offset="525 727 4 18"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="104 22 4 4" align="Right Bottom">
+			<State name="disabled" offset="396 745 4 4"/>
+			<State name="normal" offset="396 745 4 4"/>
+			<State name="highlighted" offset="396 745 4 4"/>
+			<State name="pushed" offset="525 745 4 4"/>
+			<State name="disabled_checked" offset="654 745 4 4"/>
+			<State name="normal_checked" offset="654 745 4 4"/>
+			<State name="highlighted_checked" offset="654 745 4 4"/>
+			<State name="pushed_checked" offset="525 745 4 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="20 22 84 4" align="HStretch Bottom">
+			<State name="disabled" offset="312 745 84 4"/>
+			<State name="normal" offset="312 745 84 4"/>
+			<State name="highlighted" offset="312 745 84 4"/>
+			<State name="pushed" offset="441 745 84 4"/>
+			<State name="disabled_checked" offset="570 745 84 4"/>
+			<State name="normal_checked" offset="570 745 84 4"/>
+			<State name="highlighted_checked" offset="570 745 84 4"/>
+			<State name="pushed_checked" offset="441 745 84 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 22 20 4" align="Left Bottom">
+			<State name="disabled" offset="292 745 20 4"/>
+			<State name="normal" offset="292 745 20 4"/>
+			<State name="highlighted" offset="292 745 20 4"/>
+			<State name="pushed" offset="421 745 20 4"/>
+			<State name="disabled_checked" offset="550 745 20 4"/>
+			<State name="normal_checked" offset="550 745 20 4"/>
+			<State name="highlighted_checked" offset="550 745 20 4"/>
+			<State name="pushed_checked" offset="421 745 20 4"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 4 20 18" align="Left VStretch">
+			<State name="disabled" offset="292 727 20 18"/>
+			<State name="normal" offset="292 727 20 18"/>
+			<State name="highlighted" offset="292 727 20 18"/>
+			<State name="pushed" offset="421 727 20 18"/>
+			<State name="disabled_checked" offset="550 727 20 18"/>
+			<State name="normal_checked" offset="550 727 20 18"/>
+			<State name="highlighted_checked" offset="550 727 20 18"/>
+			<State name="pushed_checked" offset="421 727 20 18"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="20 4 84 18" align="Stretch">
+			<State name="disabled" offset="312 727 84 18"/>
+			<State name="normal" offset="312 727 84 18"/>
+			<State name="highlighted" offset="312 727 84 18"/>
+			<State name="pushed" offset="441 727 84 18"/>
+			<State name="disabled_checked" offset="570 727 84 18"/>
+			<State name="normal_checked" offset="570 727 84 18"/>
+			<State name="highlighted_checked" offset="570 727 84 18"/>
+			<State name="pushed_checked" offset="441 727 84 18"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="20 4 84 18" align="Stretch">
+			<State name="disabled" colour="0 0 0" shift="0"/>
+			<State name="normal" colour="0.4 0.380392 0.356863" shift="0"/>
+			<State name="highlighted" colour="0.505882 0.4 0.207843" shift="0"/>
+			<State name="pushed" colour="0.247059 0.211765 0.176471" shift="0"/>
+			<State name="disabled_checked" colour="0 0 0" shift="0"/>
+			<State name="normal_checked" colour="0.690196 0.678431 0.596078" shift="0"/>
+			<State name="highlighted_checked" colour="0.505882 0.4 0.207843" shift="0"/>
+			<State name="pushed_checked" colour="0.247059 0.211765 0.176471" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SpeedPanelSkin" size="202 64" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 202 64" align="Stretch">
+			<State name="normal" offset="1422 734 202 64"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_TimeMoneyPanelSkin" size="174 68" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 174 68" align="Stretch">
+			<State name="normal" offset="1634 733 174 68"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_OrdersTextboxSkin" size="227 140" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 8 8" align="Left Top">
+			<State name="normal" offset="94 405 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 0 211 8" align="HStretch Top">
+			<State name="normal" offset="102 405 211 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="219 0 8 8" align="Right Top">
+			<State name="normal" offset="313 405 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="219 8 8 124" align="Right VStretch">
+			<State name="normal" offset="313 413 8 124"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="219 132 8 8" align="Right Bottom">
+			<State name="normal" offset="313 537 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 132 211 8" align="HStretch Bottom">
+			<State name="normal" offset="102 537 211 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 132 8 8" align="Left Bottom">
+			<State name="normal" offset="94 537 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 8 124" align="Left VStretch">
+			<State name="normal" offset="94 413 8 124"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 8 211 124" align="Stretch">
+			<State name="normal" offset="102 413 211 124"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SpeedTextboxSkin" size="0 0" texture="Kenshi_UI.png"/>
+	<Resource type="ResourceSkin" name="Kenshi_SquadTabButton1Skin" size="95 41" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 4 7" align="Left Top">
+			<State name="disabled" offset="1091 715 4 7"/>
+			<State name="normal" offset="1091 715 4 7"/>
+			<State name="highlighted" offset="1091 715 4 7"/>
+			<State name="pushed" offset="1091 661 4 7"/>
+			<State name="disabled_checked" offset="1091 715 4 7"/>
+			<State name="normal_checked" offset="1091 715 4 7"/>
+			<State name="highlighted_checked" offset="1091 715 4 7"/>
+			<State name="pushed_checked" offset="1091 661 4 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="4 0 77 7" align="HStretch Top">
+			<State name="disabled" offset="1095 715 77 7"/>
+			<State name="normal" offset="1095 715 77 7"/>
+			<State name="highlighted" offset="1095 715 77 7"/>
+			<State name="pushed" offset="1095 661 77 7"/>
+			<State name="disabled_checked" offset="1095 715 77 7"/>
+			<State name="normal_checked" offset="1095 715 77 7"/>
+			<State name="highlighted_checked" offset="1095 715 77 7"/>
+			<State name="pushed_checked" offset="1095 661 77 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="81 0 14 7" align="Right Top">
+			<State name="disabled" offset="1172 715 14 7"/>
+			<State name="normal" offset="1172 715 14 7"/>
+			<State name="highlighted" offset="1172 715 14 7"/>
+			<State name="pushed" offset="1172 661 14 7"/>
+			<State name="disabled_checked" offset="1172 715 14 7"/>
+			<State name="normal_checked" offset="1172 715 14 7"/>
+			<State name="highlighted_checked" offset="1172 715 14 7"/>
+			<State name="pushed_checked" offset="1172 661 14 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="81 7 14 29" align="Right VStretch">
+			<State name="disabled" offset="1172 722 14 29"/>
+			<State name="normal" offset="1172 722 14 29"/>
+			<State name="highlighted" offset="1172 722 14 29"/>
+			<State name="pushed" offset="1172 668 14 29"/>
+			<State name="disabled_checked" offset="1172 722 14 29"/>
+			<State name="normal_checked" offset="1172 722 14 29"/>
+			<State name="highlighted_checked" offset="1172 722 14 29"/>
+			<State name="pushed_checked" offset="1172 668 14 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="81 36 14 5" align="Right Bottom">
+			<State name="disabled" offset="1172 751 14 5"/>
+			<State name="normal" offset="1172 751 14 5"/>
+			<State name="highlighted" offset="1172 751 14 5"/>
+			<State name="pushed" offset="1172 697 14 5"/>
+			<State name="disabled_checked" offset="1172 751 14 5"/>
+			<State name="normal_checked" offset="1172 751 14 5"/>
+			<State name="highlighted_checked" offset="1172 751 14 5"/>
+			<State name="pushed_checked" offset="1172 697 14 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="4 36 77 5" align="HStretch Bottom">
+			<State name="disabled" offset="1095 751 77 5"/>
+			<State name="normal" offset="1095 751 77 5"/>
+			<State name="highlighted" offset="1095 751 77 5"/>
+			<State name="pushed" offset="1095 697 77 5"/>
+			<State name="disabled_checked" offset="1095 751 77 5"/>
+			<State name="normal_checked" offset="1095 751 77 5"/>
+			<State name="highlighted_checked" offset="1095 751 77 5"/>
+			<State name="pushed_checked" offset="1095 697 77 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 36 4 5" align="Left Bottom">
+			<State name="disabled" offset="1091 751 4 5"/>
+			<State name="normal" offset="1091 751 4 5"/>
+			<State name="highlighted" offset="1091 751 4 5"/>
+			<State name="pushed" offset="1091 697 4 5"/>
+			<State name="disabled_checked" offset="1091 751 4 5"/>
+			<State name="normal_checked" offset="1091 751 4 5"/>
+			<State name="highlighted_checked" offset="1091 751 4 5"/>
+			<State name="pushed_checked" offset="1091 697 4 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 7 4 29" align="Left VStretch">
+			<State name="disabled" offset="1091 722 4 29"/>
+			<State name="normal" offset="1091 722 4 29"/>
+			<State name="highlighted" offset="1091 722 4 29"/>
+			<State name="pushed" offset="1091 668 4 29"/>
+			<State name="disabled_checked" offset="1091 722 4 29"/>
+			<State name="normal_checked" offset="1091 722 4 29"/>
+			<State name="highlighted_checked" offset="1091 722 4 29"/>
+			<State name="pushed_checked" offset="1091 668 4 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="4 7 77 29" align="Stretch">
+			<State name="disabled" offset="1095 722 77 29"/>
+			<State name="normal" offset="1095 722 77 29"/>
+			<State name="highlighted" offset="1095 722 77 29"/>
+			<State name="pushed" offset="1095 668 77 29"/>
+			<State name="disabled_checked" offset="1095 722 77 29"/>
+			<State name="normal_checked" offset="1095 722 77 29"/>
+			<State name="highlighted_checked" offset="1095 722 77 29"/>
+			<State name="pushed_checked" offset="1095 668 77 29"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="5 6 85 30" align="Stretch">
+			<State name="disabled" colour="0 0 0" shift="0"/>
+			<State name="normal" colour="0.4 0.380392 0.356863" shift="0"/>
+			<State name="highlighted" colour="0.505882 0.4 0.207843" shift="0"/>
+			<State name="pushed" colour="0.247059 0.211765 0.176471" shift="0"/>
+			<State name="disabled_checked" colour="0 0 0" shift="0"/>
+			<State name="normal_checked" colour="0.690196 0.678431 0.596078" shift="0"/>
+			<State name="highlighted_checked" colour="0.505882 0.4 0.207843" shift="0"/>
+			<State name="pushed_checked" colour="0.247059 0.211765 0.176471" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_FloorArrowDownSkin" size="48 30" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 48 30" align="Stretch">
+			<State name="disabled" offset="814 721 48 30"/>
+			<State name="normal" offset="814 721 48 30"/>
+			<State name="highlighted" offset="815 680 48 30"/>
+			<State name="pushed" offset="815 638 48 30"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SpeedArrowLeftSkin" size="29 51" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 29 51" align="Stretch">
+			<State name="disabled" offset="665 708 29 51"/>
+			<State name="normal" offset="665 708 29 51"/>
+			<State name="highlighted" offset="665 653 29 51"/>
+			<State name="pushed" offset="665 598 29 51"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SpeedArrowRightSkin" size="31 51" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 31 51" align="Stretch">
+			<State name="disabled" offset="704 708 31 51"/>
+			<State name="normal" offset="704 708 31 51"/>
+			<State name="highlighted" offset="704 653 31 51"/>
+			<State name="pushed" offset="705 598 31 51"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_TimeSpeedButton1Skin" size="47 50" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 47 50" align="Stretch">
+			<State name="disabled" offset="879 711 47 50"/>
+			<State name="normal" offset="879 711 47 50"/>
+			<State name="highlighted" offset="879 657 47 50"/>
+			<State name="pushed" offset="879 604 47 50"/>
+			<State name="disabled_checked" offset="879 711 47 50"/>
+			<State name="normal_checked" offset="879 550 47 50"/>
+			<State name="highlighted_checked" offset="879 657 47 50"/>
+			<State name="pushed_checked" offset="879 604 47 50"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_TimeSpeedButton2Skin" size="46 50" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 46 50" align="Stretch">
+			<State name="disabled" offset="926 711 46 50"/>
+			<State name="normal" offset="926 711 46 50"/>
+			<State name="highlighted" offset="926 657 46 50"/>
+			<State name="pushed" offset="926 604 46 50"/>
+			<State name="disabled_checked" offset="926 711 46 50"/>
+			<State name="normal_checked" offset="926 550 46 50"/>
+			<State name="highlighted_checked" offset="926 657 46 50"/>
+			<State name="pushed_checked" offset="926 604 46 50"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_TimeSpeedButton3Skin" size="45 50" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 45 50" align="Stretch">
+			<State name="disabled" offset="972 711 45 50"/>
+			<State name="normal" offset="972 711 45 50"/>
+			<State name="highlighted" offset="972 657 45 50"/>
+			<State name="pushed" offset="972 604 45 50"/>
+			<State name="disabled_checked" offset="972 711 45 50"/>
+			<State name="normal_checked" offset="972 550 45 50"/>
+			<State name="highlighted_checked" offset="972 657 45 50"/>
+			<State name="pushed_checked" offset="972 604 45 50"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_TimeSpeedButton4Skin" size="48 50" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 48 50" align="Stretch">
+			<State name="disabled" offset="1017 711 48 50"/>
+			<State name="normal" offset="1017 711 48 50"/>
+			<State name="highlighted" offset="1017 657 48 50"/>
+			<State name="pushed" offset="1017 604 48 50"/>
+			<State name="disabled_checked" offset="1017 711 48 50"/>
+			<State name="normal_checked" offset="1017 550 48 50"/>
+			<State name="highlighted_checked" offset="1017 657 48 50"/>
+			<State name="pushed_checked" offset="1017 604 48 50"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_GenericWindowSkin" size="292 240" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 58 48" align="Left Top">
+			<State name="normal" offset="1030 113 58 48"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="58 0 158 48" align="HStretch Top">
+			<State name="normal" offset="1088 113 158 48"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="216 0 76 48" align="Right Top">
+			<State name="normal" offset="1246 113 76 48"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="216 48 76 113" align="Right VStretch">
+			<State name="normal" offset="1246 161 76 113"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="216 161 76 79" align="Right Bottom">
+			<State name="normal" offset="1246 274 76 79"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="58 161 158 79" align="HStretch Bottom">
+			<State name="normal" offset="1088 274 158 79"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 161 58 79" align="Left Bottom">
+			<State name="normal" offset="1030 274 58 79"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 48 58 113" align="Left VStretch">
+			<State name="normal" offset="1030 161 58 113"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="58 48 158 113" align="Stretch">
+			<State name="normal" offset="1088 161 158 113"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_InventoryWindowSkin" size="504 558" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 504 558" align="Stretch">
+			<State name="normal" offset="1336 114 504 558"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SliderButtonSkin" size="27 57" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 27 57" align="Stretch">
+			<State name="disabled" offset="605 529 27 57"/>
+			<State name="normal" offset="605 529 27 57"/>
+			<State name="highlighted" offset="632 529 27 57"/>
+			<State name="pushed" offset="659 529 27 57"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SliderSkin" size="225 25" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 225 25" align="Stretch">
+			<State name="normal" offset="359 562 225 25"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_InventorySlotSkin" size="25 25" texture="Kenshi_UI.png">
+		<BasisSkin type="TileRect" offset="0 0 25 25" align="Stretch">
+			<State name="disabled" offset="826 553 25 25">
+				<Property key="TileSize" value="25 25"/>
+				<Property key="TileH" value="true"/>
+				<Property key="TileV" value="true"/>
+			</State>
+			<State name="normal" offset="826 583 25 25">
+				<Property key="TileSize" value="25 25"/>
+				<Property key="TileH" value="true"/>
+				<Property key="TileV" value="true"/>
+			</State>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_CloseButtonSkin" size="31 32" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 31 32" align="Stretch">
+			<State name="disabled" offset="697 542 31 32"/>
+			<State name="normal" offset="697 542 31 32"/>
+			<State name="highlighted" offset="733 542 31 32"/>
+			<State name="pushed" offset="769 542 31 32"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_HealthPanelBottomSkin" size="187 162" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 187 162" align="Stretch">
+			<State name="normal" offset="1074 143 187 162"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_LifeBarSplintSkin" size="300 28" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 300 28" align="Stretch">
+			<State name="normal" offset="338 586 300 28"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_LifeBarHealedSkin" size="300 26" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 300 26" align="Stretch">
+			<State name="normal" offset="338 614 300 26"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_LifeBarSkin" size="300 26" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 300 26" align="Stretch">
+			<State name="normal" offset="338 640 300 26"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_LifeBarStunnedSkin" size="300 26" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 300 26" align="Stretch">
+			<State name="normal" offset="338 666 300 26"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_LifeBarHurtSkin" size="300 26" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 300 26" align="Stretch">
+			<State name="normal" offset="338 692 300 26"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SpeedSymbol1Skin" size="38 51" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 38 51" align="Stretch">
+			<State name="normal" offset="1096 762 38 51"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SpeedSymbol2Skin" size="38 51" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 38 51" align="Stretch">
+			<State name="normal" offset="1132 762 38 51"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SpeedSymbol3Skin" size="38 51" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 38 51" align="Stretch">
+			<State name="normal" offset="1170 762 38 51"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_ExtendedStatsPanelSkin" size="277 263" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 277 263" align="Stretch">
+			<State name="normal" offset="0 645 277 263"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_StatsPanelSkin" size="277 165" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 277 165" align="Stretch">
+			<State name="normal" offset="0 907 277 165"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_ExtendedStatsButton" size="37 36" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 37 36" align="Stretch">
+			<State name="disabled" offset="786 499 37 36"/>
+			<State name="normal" offset="786 499 37 36"/>
+			<State name="highlighted" offset="786 458 37 36"/>
+			<State name="pushed" offset="786 416 37 36"/>
+			<State name="disabled_checked" offset="836 499 37 36"/>
+			<State name="normal_checked" offset="836 499 37 36"/>
+			<State name="highlighted_checked" offset="836 458 37 36"/>
+			<State name="pushed_checked" offset="836 416 37 36"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_ProgressBarSkin" size="159 20" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 44 5" align="Left Top">
+			<State name="normal" offset="890 503 44 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="44 0 64 5" align="HStretch Top">
+			<State name="normal" offset="934 503 64 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="108 0 51 5" align="Right Top">
+			<State name="normal" offset="998 503 51 5"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="108 5 51 9" align="Right VStretch">
+			<State name="normal" offset="998 508 51 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="108 14 51 6" align="Right Bottom">
+			<State name="normal" offset="998 517 51 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="44 14 64 6" align="HStretch Bottom">
+			<State name="normal" offset="934 517 64 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 14 44 6" align="Left Bottom">
+			<State name="normal" offset="890 517 44 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 5 44 9" align="Left VStretch">
+			<State name="normal" offset="890 508 44 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="44 5 64 9" align="Stretch">
+			<State name="normal" offset="934 508 64 9"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_ProgressBarEmptySkin" size="140 16" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 140 16" align="Stretch">
+			<State name="normal" offset="900 479 140 16"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_ProgressBarFilledSkin" size="140 16" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 140 16" align="Stretch">
+			<State name="normal" offset="900 458 140 16"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_TextBoxEmptySkin" size="41 28" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 41 28" align="Stretch">
+			<State name="normal" offset="597 820 41 28"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="0 0 41 28" align="Stretch">
+			<State name="normal" colour="0.609375 0.609375 0.609375" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_EditBoxEmptySkin" size="41 28" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 41 28" align="Stretch">
+			<State name="normal" offset="597 820 41 28"/>
+		</BasisSkin>
+		<BasisSkin type="EditText" offset="0 0 41 28" align="Stretch">
+			<State name="normal" colour="0.609375 0.609375 0.609375" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_Input1OutputLineSkin" size="59 15" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="46 0 13 15" align="Right VStretch">
+			<State name="normal" offset="306 649 13 15"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 14 15" align="Left VStretch">
+			<State name="normal" offset="260 649 14 15"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="14 0 32 15" align="Stretch">
+			<State name="normal" offset="274 649 32 15"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_Input2OutputLineSkin" size="40 43" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 12 10" align="Left Top">
+			<State name="normal" offset="261 671 12 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="12 0 14 10" align="HStretch Top">
+			<State name="normal" offset="273 671 14 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="26 0 14 10" align="Right Top">
+			<State name="normal" offset="287 671 14 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="26 10 14 15" align="Right VStretch">
+			<State name="normal" offset="287 681 14 15"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="26 25 14 18" align="Right Bottom">
+			<State name="normal" offset="287 696 14 18"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="12 25 14 18" align="HStretch Bottom">
+			<State name="normal" offset="273 696 14 18"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 25 12 18" align="Left Bottom">
+			<State name="normal" offset="261 696 12 18"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 10 12 15" align="Left VStretch">
+			<State name="normal" offset="261 681 12 15"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="12 10 14 15" align="Stretch">
+			<State name="normal" offset="273 681 14 15"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_FloatingPanelSkin" size="248 174" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 8 8" align="Left Top">
+			<State name="normal" offset="1073 366 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 0 232 8" align="HStretch Top">
+			<State name="normal" offset="1081 366 232 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="240 0 8 8" align="Right Top">
+			<State name="normal" offset="1313 366 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="240 8 8 158" align="Right VStretch">
+			<State name="normal" offset="1313 374 8 158"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="240 166 8 8" align="Right Bottom">
+			<State name="normal" offset="1313 532 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 166 232 8" align="HStretch Bottom">
+			<State name="normal" offset="1081 532 232 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 166 8 8" align="Left Bottom">
+			<State name="normal" offset="1073 532 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 8 158" align="Left VStretch">
+			<State name="normal" offset="1073 374 8 158"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 8 232 158" align="Stretch">
+			<State name="normal" offset="1081 374 232 158"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_GenericTextBoxSkin" size="186 102" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 33 33" align="Left Top">
+			<State name="normal" offset="341 446 33 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="33 0 122 33" align="HStretch Top">
+			<State name="normal" offset="374 446 122 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="155 0 31 33" align="Right Top">
+			<State name="normal" offset="496 446 31 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="155 33 31 42" align="Right VStretch">
+			<State name="normal" offset="496 479 31 42"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="155 75 31 27" align="Right Bottom">
+			<State name="normal" offset="496 521 31 27"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="33 75 122 27" align="HStretch Bottom">
+			<State name="normal" offset="374 521 122 27"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 75 33 27" align="Left Bottom">
+			<State name="normal" offset="341 521 33 27"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 33 33 42" align="Left VStretch">
+			<State name="normal" offset="341 479 33 42"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="33 33 122 42" align="Stretch">
+			<State name="normal" offset="374 479 122 42"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="18 14 149 74" align="Stretch">
+			<State name="normal" colour="0.609375 0.609375 0.609375" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_GenericTextBoxBorderlessSkin" size="176 93" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 24 30" align="Left Top">
+			<State name="normal" offset="346 451 24 30"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="24 0 128 30" align="HStretch Top">
+			<State name="normal" offset="370 451 128 30"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="152 0 24 30" align="Right Top">
+			<State name="normal" offset="498 451 24 30"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="152 30 24 33" align="Right VStretch">
+			<State name="normal" offset="498 481 24 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="152 63 24 30" align="Right Bottom">
+			<State name="normal" offset="498 514 24 30"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="24 63 128 30" align="HStretch Bottom">
+			<State name="normal" offset="370 514 128 30"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 63 24 30" align="Left Bottom">
+			<State name="normal" offset="346 514 24 30"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 30 24 33" align="Left VStretch">
+			<State name="normal" offset="346 481 24 33"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="24 30 128 33" align="Stretch">
+			<State name="normal" offset="370 481 128 33"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="6 6 164 82" align="Stretch">
+			<State name="normal" colour="0.609375 0.609375 0.609375" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_GenericTextBoxFlatSkin" size="152 41" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 18 8" align="Left Top">
+			<State name="normal" offset="340 402 18 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="18 0 116 8" align="HStretch Top">
+			<State name="normal" offset="358 402 116 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 0 18 8" align="Right Top">
+			<State name="normal" offset="474 402 18 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 8 18 24" align="Right VStretch">
+			<State name="normal" offset="474 410 18 24"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 32 18 9" align="Right Bottom">
+			<State name="normal" offset="474 434 18 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="18 32 116 9" align="HStretch Bottom">
+			<State name="normal" offset="358 434 116 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 32 18 9" align="Left Bottom">
+			<State name="normal" offset="340 434 18 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 18 24" align="Left VStretch">
+			<State name="normal" offset="340 410 18 24"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="18 8 116 24" align="Stretch">
+			<State name="normal" offset="358 410 116 24"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="13 7 126 26" align="Stretch">
+			<State name="normal" colour="0.609375 0.609375 0.609375" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_GenericInputBoxSkin" size="142 27" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 8 8" align="Left Top">
+			<State name="normal" offset="543 491 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 0 126 8" align="HStretch Top">
+			<State name="normal" offset="551 491 126 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 0 8 8" align="Right Top">
+			<State name="normal" offset="677 491 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 8 8 11" align="Right VStretch">
+			<State name="normal" offset="677 499 8 11"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 19 8 8" align="Right Bottom">
+			<State name="normal" offset="677 510 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 19 126 8" align="HStretch Bottom">
+			<State name="normal" offset="551 510 126 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 19 8 8" align="Left Bottom">
+			<State name="normal" offset="543 510 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 8 11" align="Left VStretch">
+			<State name="normal" offset="543 499 8 11"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 8 126 11" align="Stretch">
+			<State name="normal" offset="551 499 126 11"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallArrowUpSkin" size="17 12" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 17 12" align="Stretch">
+			<State name="normal" offset="543 451 17 12"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallArrowDownSkin" size="17 12" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 17 12" align="Stretch">
+			<State name="normal" offset="543 475 17 12"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallBarSkin" size="17 7" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 17 3" align="HStretch Top">
+			<State name="normal" offset="543 465 17 3"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 4 17 3" align="HStretch Bottom">
+			<State name="normal" offset="543 469 17 3"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 3 17 1" align="Stretch">
+			<State name="normal" offset="543 468 17 1"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_PausedTextSkin" size="239 67" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 239 67" align="Stretch">
+			<State name="normal" offset="1085 567 239 67"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_ConnectBarSkin" size="85 26" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 7 7" align="Left Top">
+			<State name="normal" offset="693 492 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 0 71 7" align="HStretch Top">
+			<State name="normal" offset="700 492 71 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="78 0 7 7" align="Right Top">
+			<State name="normal" offset="771 492 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="78 7 7 12" align="Right VStretch">
+			<State name="normal" offset="771 499 7 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="78 19 7 7" align="Right Bottom">
+			<State name="normal" offset="771 511 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 19 71 7" align="HStretch Bottom">
+			<State name="normal" offset="700 511 71 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 19 7 7" align="Left Bottom">
+			<State name="normal" offset="693 511 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 7 7 12" align="Left VStretch">
+			<State name="normal" offset="693 499 7 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 7 71 12" align="Stretch">
+			<State name="normal" offset="700 499 71 12"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SquadPanelHeaderSkin" size="716 29" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="685 0 31 29" align="Right VStretch">
+			<State name="normal" offset="1284 852 31 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 28 29" align="Left VStretch">
+			<State name="normal" offset="599 852 28 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="28 0 657 29" align="Stretch">
+			<State name="normal" offset="627 852 657 29"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_ListBoxItemSkin" size="43 10" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 43 10" align="Stretch">
+			<State name="disabled" offset="607 827 43 10"/>
+			<State name="normal" offset="607 827 43 10"/>
+			<State name="highlighted" offset="607 827 43 10"/>
+			<State name="pushed" offset="607 827 43 10"/>
+			<State name="disabled_checked" offset="607 827 43 10"/>
+			<State name="normal_checked" offset="607 827 43 10"/>
+			<State name="highlighted_checked" offset="607 827 43 10"/>
+			<State name="pushed_checked" offset="607 827 43 10"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="0 0 43 10" align="Stretch">
+			<State name="disabled" colour="0.609375 0.609375 0.609375" shift="0"/>
+			<State name="normal" colour="0.609375 0.609375 0.609375" shift="0"/>
+			<State name="highlighted" colour="0.609375 0.609375 0.609375" shift="0"/>
+			<State name="pushed" colour="0.609375 0.609375 0.609375" shift="0"/>
+			<State name="disabled_checked" colour="0.65625 0.714844 0.453125" shift="0"/>
+			<State name="normal_checked" colour="0.65625 0.714844 0.453125" shift="0"/>
+			<State name="highlighted_checked" colour="0.65625 0.714844 0.453125" shift="0"/>
+			<State name="pushed_checked" colour="0.65625 0.714844 0.453125" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_ScrollerVerticalSkin" size="10 57" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 10 21" align="HStretch Top">
+			<State name="normal" offset="70 425 10 21"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 33 10 24" align="HStretch Bottom">
+			<State name="normal" offset="70 458 10 24"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 21 10 12" align="Stretch">
+			<State name="normal" offset="70 446 10 12"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_HScrollerButtonSkin" size="27 58" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 27 20" align="HStretch Top">
+			<State name="normal" offset="12 428 27 20"/>
+			<State name="highlighted" offset="12 428 27 20"/>
+			<State name="pushed" offset="40 428 27 20"/>
+			<State name="normal_checked" offset="40 428 27 20"/>
+			<State name="highlighted_checked" offset="40 428 27 20"/>
+			<State name="pushed_checked" offset="40 428 27 20"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 38 27 20" align="HStretch Bottom">
+			<State name="normal" offset="12 466 27 20"/>
+			<State name="highlighted" offset="12 466 27 20"/>
+			<State name="pushed" offset="40 466 27 20"/>
+			<State name="normal_checked" offset="40 466 27 20"/>
+			<State name="highlighted_checked" offset="40 466 27 20"/>
+			<State name="pushed_checked" offset="40 466 27 20"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 20 27 18" align="Stretch">
+			<State name="normal" offset="12 448 27 18"/>
+			<State name="highlighted" offset="12 448 27 18"/>
+			<State name="pushed" offset="40 448 27 18"/>
+			<State name="normal_checked" offset="40 448 27 18"/>
+			<State name="highlighted_checked" offset="40 448 27 18"/>
+			<State name="pushed_checked" offset="40 448 27 18"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_FloatinglPanelSmallSkin" size="167 64" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 167 64" align="Stretch">
+			<State name="normal" offset="1639 734 167 64"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="25 16 125 37" align="Stretch">
+			<State name="normal" colour="0.609375 0.609375 0.609375" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_LoadingTextSkin" size="260 78" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 260 78" align="Stretch">
+			<State name="normal" offset="707 328 260 78"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_TickBoxSkin" size="35 33" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 35 33" align="Stretch">
+			<State name="disabled" offset="601 456 35 33"/>
+			<State name="normal" offset="601 456 35 33"/>
+			<State name="highlighted" offset="601 456 35 33"/>
+			<State name="pushed" offset="639 456 35 33"/>
+			<State name="disabled_checked" offset="639 456 35 33"/>
+			<State name="normal_checked" offset="639 456 35 33"/>
+			<State name="highlighted_checked" offset="639 456 35 33"/>
+			<State name="pushed_checked" offset="601 456 35 33"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_PinButtonSkin" size="31 32" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 31 32" align="Stretch">
+			<State name="normal" offset="639 419 31 32"/>
+			<State name="highlighted" offset="675 419 31 32"/>
+			<State name="pushed" offset="711 419 31 32"/>
+			<State name="normal_checked" offset="747 419 31 32"/>
+			<State name="highlighted_checked" offset="747 419 31 32"/>
+			<State name="pushed_checked" offset="711 419 31 32"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_MinimizeButtonSkin" size="32 32" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 32 32" align="Stretch">
+			<State name="normal" offset="711 376 32 32"/>
+			<State name="highlighted" offset="747 376 32 32"/>
+			<State name="pushed" offset="783 376 32 32"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_BuildPanelSkin" size="96 67" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 96 67" align="Stretch">
+			<State name="normal" offset="1810 734 96 67"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_BuildButtonSkin" size="72 52" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 72 52" align="Stretch">
+			<State name="normal" offset="872 763 72 52"/>
+			<State name="highlighted" offset="945 763 72 52"/>
+			<State name="pushed" offset="1019 763 72 52"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_BehaviorButtonSkin" size="56 27" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 56 27" align="Stretch">
+			<State name="normal" offset="600 388 56 27"/>
+			<State name="highlighted" offset="600 360 56 27"/>
+			<State name="pushed" offset="600 331 56 27"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_BehaviorSliderSkin" size="27 81" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 27 81" align="Stretch">
+			<State name="normal" offset="668 331 27 81"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_FrameSkin" size="57 35" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 16 12" align="Left Top">
+			<State name="normal" offset="753 583 16 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="16 0 25 12" align="HStretch Top">
+			<State name="normal" offset="769 583 25 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="41 0 16 12" align="Right Top">
+			<State name="normal" offset="794 583 16 12"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="41 12 16 9" align="Right VStretch">
+			<State name="normal" offset="794 595 16 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="41 21 16 14" align="Right Bottom">
+			<State name="normal" offset="794 604 16 14"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="16 21 25 14" align="HStretch Bottom">
+			<State name="normal" offset="769 604 25 14"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 21 16 14" align="Left Bottom">
+			<State name="normal" offset="753 604 16 14"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 12 16 9" align="Left VStretch">
+			<State name="normal" offset="753 595 16 9"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="16 12 25 9" align="Stretch">
+			<State name="normal" offset="769 595 25 9"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_PortraitFrameSkin" size="66 66" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 29 29" align="Left Top">
+			<State name="normal" offset="80 190 29 29"/>
+			<State name="highlighted" offset="9 190 29 29"/>
+			<State name="pushed" offset="9 190 29 29"/>
+			<State name="normal_checked" offset="9 190 29 29"/>
+			<State name="highlighted_checked" offset="9 190 29 29"/>
+			<State name="pushed_checked" offset="9 190 29 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="29 0 8 29" align="HStretch Top">
+			<State name="normal" offset="109 190 8 29"/>
+			<State name="highlighted" offset="38 190 8 29"/>
+			<State name="pushed" offset="38 190 8 29"/>
+			<State name="normal_checked" offset="38 190 8 29"/>
+			<State name="highlighted_checked" offset="38 190 8 29"/>
+			<State name="pushed_checked" offset="38 190 8 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="37 0 29 29" align="Right Top">
+			<State name="normal" offset="117 190 29 29"/>
+			<State name="highlighted" offset="46 190 29 29"/>
+			<State name="pushed" offset="46 190 29 29"/>
+			<State name="normal_checked" offset="46 190 29 29"/>
+			<State name="highlighted_checked" offset="46 190 29 29"/>
+			<State name="pushed_checked" offset="46 190 29 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="37 29 29 8" align="Right VStretch">
+			<State name="normal" offset="117 219 29 8"/>
+			<State name="highlighted" offset="46 219 29 8"/>
+			<State name="pushed" offset="46 219 29 8"/>
+			<State name="normal_checked" offset="46 219 29 8"/>
+			<State name="highlighted_checked" offset="46 219 29 8"/>
+			<State name="pushed_checked" offset="46 219 29 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="37 37 29 29" align="Right Bottom">
+			<State name="normal" offset="117 227 29 29"/>
+			<State name="highlighted" offset="46 227 29 29"/>
+			<State name="pushed" offset="46 227 29 29"/>
+			<State name="normal_checked" offset="46 227 29 29"/>
+			<State name="highlighted_checked" offset="46 227 29 29"/>
+			<State name="pushed_checked" offset="46 227 29 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="29 37 8 29" align="HStretch Bottom">
+			<State name="normal" offset="109 227 8 29"/>
+			<State name="highlighted" offset="38 227 8 29"/>
+			<State name="pushed" offset="38 227 8 29"/>
+			<State name="normal_checked" offset="38 227 8 29"/>
+			<State name="highlighted_checked" offset="38 227 8 29"/>
+			<State name="pushed_checked" offset="38 227 8 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 37 29 29" align="Left Bottom">
+			<State name="normal" offset="80 227 29 29"/>
+			<State name="highlighted" offset="9 227 29 29"/>
+			<State name="pushed" offset="9 227 29 29"/>
+			<State name="normal_checked" offset="9 227 29 29"/>
+			<State name="highlighted_checked" offset="9 227 29 29"/>
+			<State name="pushed_checked" offset="9 227 29 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 29 29 8" align="Left VStretch">
+			<State name="normal" offset="80 219 29 8"/>
+			<State name="highlighted" offset="9 219 29 8"/>
+			<State name="pushed" offset="9 219 29 8"/>
+			<State name="normal_checked" offset="9 219 29 8"/>
+			<State name="highlighted_checked" offset="9 219 29 8"/>
+			<State name="pushed_checked" offset="9 219 29 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="29 29 8 8" align="Stretch">
+			<State name="normal" offset="109 219 8 8"/>
+			<State name="highlighted" offset="38 219 8 8"/>
+			<State name="pushed" offset="38 219 8 8"/>
+			<State name="normal_checked" offset="38 219 8 8"/>
+			<State name="highlighted_checked" offset="38 219 8 8"/>
+			<State name="pushed_checked" offset="38 219 8 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallBarHSkin" size="7 16" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="4 0 3 16" align="Right VStretch">
+			<State name="normal" offset="578 452 3 16"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 3 16" align="Left VStretch">
+			<State name="normal" offset="574 452 3 16"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="3 0 1 16" align="Stretch">
+			<State name="normal" offset="577 452 1 16"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallArrowRightSkin" size="13 18" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 13 18" align="Stretch">
+			<State name="normal" offset="580 471 13 18"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallArrowLeftSkin" size="11 18" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 11 18" align="Stretch">
+			<State name="normal" offset="565 471 11 18"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_VScrollerButtonSkin" size="54 25" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="34 0 20 25" align="Right VStretch">
+			<State name="normal" offset="575 361 20 25"/>
+			<State name="highlighted" offset="575 361 20 25"/>
+			<State name="pushed" offset="575 333 20 25"/>
+			<State name="normal_checked" offset="575 333 20 25"/>
+			<State name="highlighted_checked" offset="575 333 20 25"/>
+			<State name="pushed_checked" offset="575 333 20 25"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 20 25" align="Left VStretch">
+			<State name="normal" offset="541 361 20 25"/>
+			<State name="highlighted" offset="541 361 20 25"/>
+			<State name="pushed" offset="541 333 20 25"/>
+			<State name="normal_checked" offset="541 333 20 25"/>
+			<State name="highlighted_checked" offset="541 333 20 25"/>
+			<State name="pushed_checked" offset="541 333 20 25"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="20 0 14 25" align="Stretch">
+			<State name="normal" offset="561 361 14 25"/>
+			<State name="highlighted" offset="561 361 14 25"/>
+			<State name="pushed" offset="561 333 14 25"/>
+			<State name="normal_checked" offset="561 333 14 25"/>
+			<State name="highlighted_checked" offset="561 333 14 25"/>
+			<State name="pushed_checked" offset="561 333 14 25"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_FloatingPanelThinSkin" size="277 43" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 7 7" align="Left Top">
+			<State name="normal" offset="1 602 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 0 263 7" align="HStretch Top">
+			<State name="normal" offset="8 602 263 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="270 0 7 7" align="Right Top">
+			<State name="normal" offset="271 602 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="270 7 7 29" align="Right VStretch">
+			<State name="normal" offset="271 609 7 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="270 36 7 7" align="Right Bottom">
+			<State name="normal" offset="271 638 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 36 263 7" align="HStretch Bottom">
+			<State name="normal" offset="8 638 263 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 36 7 7" align="Left Bottom">
+			<State name="normal" offset="1 638 7 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 7 7 29" align="Left VStretch">
+			<State name="normal" offset="1 609 7 29"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="7 7 263 29" align="Stretch">
+			<State name="normal" offset="8 609 263 29"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SpeechPanelSkin" size="126 18" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="82 0 44 18" align="Right VStretch">
+			<State name="normal" offset="582 423 44 18"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 47 18" align="Left VStretch">
+			<State name="normal" offset="500 423 47 18"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="47 0 35 18" align="Stretch">
+			<State name="normal" offset="547 423 35 18"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_GenericWindowHeaderSkin" size="292 38" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="209 0 83 38" align="Right VStretch">
+			<State name="normal" offset="1239 75 83 38"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 75 38" align="Left VStretch">
+			<State name="normal" offset="1030 75 75 38"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="75 0 134 38" align="Stretch">
+			<State name="normal" offset="1105 75 134 38"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_InventoryWindowHeaderSkin" size="504 40" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 504 40" align="Stretch">
+			<State name="normal" offset="1336 73 504 40"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_WhiteLine" size="293 8" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="151 0 142 8" align="Right VStretch">
+			<State name="normal" offset="581 315 142 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 42 8" align="Left VStretch">
+			<State name="normal" offset="430 315 42 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="42 0 109 8" align="Stretch">
+			<State name="normal" offset="472 315 109 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_WhiteLine2" size="291 8" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="234 0 57 8" align="Right VStretch">
+			<State name="normal" offset="663 300 57 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 134 8" align="Left VStretch">
+			<State name="normal" offset="429 300 134 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 0 100 8" align="Stretch">
+			<State name="normal" offset="563 300 100 8"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallScrollArrowLeftSkin" size="24 34" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 24 34" align="Stretch">
+			<State name="disabled" offset="535 249 24 34"/>
+			<State name="normal" offset="535 249 24 34"/>
+			<State name="highlighted" offset="535 177 24 34"/>
+			<State name="pushed" offset="535 213 24 34"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallScrollArrowRightSkin" size="24 34" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 24 34" align="Stretch">
+			<State name="disabled" offset="535 249 24 34"/>
+			<State name="normal" offset="560 249 24 34"/>
+			<State name="highlighted" offset="560 177 24 34"/>
+			<State name="pushed" offset="560 213 24 34"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallScrollArrowDownSkin" size="32 27" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 32 27" align="Stretch">
+			<State name="disabled" offset="592 264 32 27"/>
+			<State name="normal" offset="592 264 32 27"/>
+			<State name="highlighted" offset="667 264 32 27"/>
+			<State name="pushed" offset="630 264 32 27"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SmallScrollArrowUpSkin" size="32 27" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 32 27" align="Stretch">
+			<State name="disabled" offset="592 235 32 27"/>
+			<State name="normal" offset="592 235 32 27"/>
+			<State name="highlighted" offset="667 235 32 27"/>
+			<State name="pushed" offset="630 235 32 27"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_ScrollerHorizontalSkin" size="50 10" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="37 0 13 10" align="Right VStretch">
+			<State name="normal" offset="581 395 13 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 14 10" align="Left VStretch">
+			<State name="normal" offset="544 395 14 10"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="14 0 23 10" align="Stretch">
+			<State name="normal" offset="558 395 23 10"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_CenterMapButtonSkin" size="58 50" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 58 50" align="Stretch">
+			<State name="disabled" offset="401 241 58 50"/>
+			<State name="normal" offset="401 241 58 50"/>
+			<State name="highlighted" offset="401 185 58 50"/>
+			<State name="pushed" offset="465 241 58 50"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_GenericTextBoxFlatSmallSkin" size="142 32" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 11 6" align="Left Top">
+			<State name="normal" offset="344 406 11 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="11 0 119 6" align="HStretch Top">
+			<State name="normal" offset="355 406 119 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="130 0 12 6" align="Right Top">
+			<State name="normal" offset="474 406 12 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="130 6 12 20" align="Right VStretch">
+			<State name="normal" offset="474 412 12 20"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="130 26 12 6" align="Right Bottom">
+			<State name="normal" offset="474 432 12 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="11 26 119 6" align="HStretch Bottom">
+			<State name="normal" offset="355 432 119 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 26 11 6" align="Left Bottom">
+			<State name="normal" offset="344 432 11 6"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 6 11 20" align="Left VStretch">
+			<State name="normal" offset="344 412 11 20"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="11 6 119 20" align="Stretch">
+			<State name="normal" offset="355 412 119 20"/>
+		</BasisSkin>
+		<BasisSkin type="SimpleText" offset="6 2 128 28" align="Stretch">
+			<State name="normal" colour="0.609375 0.609375 0.609375" shift="0"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_SelectionPanel" size="25 23" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 8 8" align="Left Top">
+			<State name="normal" offset="724 298 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 0 9 8" align="HStretch Top">
+			<State name="normal" offset="732 298 9 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="17 0 8 8" align="Right Top">
+			<State name="normal" offset="741 298 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="17 8 8 7" align="Right VStretch">
+			<State name="normal" offset="741 306 8 7"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="17 15 8 8" align="Right Bottom">
+			<State name="normal" offset="741 313 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 15 9 8" align="HStretch Bottom">
+			<State name="normal" offset="732 313 9 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 15 8 8" align="Left Bottom">
+			<State name="normal" offset="724 313 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 8 7" align="Left VStretch">
+			<State name="normal" offset="724 306 8 7"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_MessageSkin" size="172 72" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="164 0 8 72" align="Right VStretch">
+			<State name="normal" offset="924 250 8 72"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 0 8 72" align="Left VStretch">
+			<State name="normal" offset="760 250 8 72"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 0 156 72" align="Stretch">
+			<State name="normal" offset="768 250 156 72"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_LifeBarRobotSkin" size="300 26" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 300 26" align="Stretch">
+			<State name="normal" offset="338 148 300 26"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_LifeBarCrushedSkin" size="300 26" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 300 26" align="Stretch">
+			<State name="normal" offset="338 117 300 26"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="DarkUI_editbox" size="142 27" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 8 8" align="Left Top">
+			<State name="normal" offset="1698 38 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 0 126 8" align="HStretch Top">
+			<State name="normal" offset="1706 38 126 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 0 8 8" align="Right Top">
+			<State name="normal" offset="1832 38 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 8 8 11" align="Right VStretch">
+			<State name="normal" offset="1832 46 8 11"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="134 19 8 8" align="Right Bottom">
+			<State name="normal" offset="1832 57 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 19 126 8" align="HStretch Bottom">
+			<State name="normal" offset="1706 57 126 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 19 8 8" align="Left Bottom">
+			<State name="normal" offset="1698 57 8 8"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="0 8 8 11" align="Left VStretch">
+			<State name="normal" offset="1698 46 8 11"/>
+		</BasisSkin>
+		<BasisSkin type="SubSkin" offset="8 8 126 11" align="Stretch">
+			<State name="normal" offset="1706 46 126 11"/>
+		</BasisSkin>
+	</Resource>
+	<Resource type="ResourceSkin" name="Kenshi_FloorPanelSkin_1" size="101 101" texture="Kenshi_UI.png">
+		<BasisSkin type="SubSkin" offset="0 0 101 101" align="Stretch">
+			<State name="normal" offset="1299 700 101 101"/>
+		</BasisSkin>
+	</Resource>
+</MyGUI>

@@ -1,0 +1,52 @@
+
+--- Stubs Momuso Body preset ---
+
+Enter manually to avoid a all data jump to on scorchlander race if you load a .bod 
+It happens because she has a mix of green and scorch value at the same time !
+
+IDLE stance : 6
+Tone : /*don't touch*/
+Height : 98
+Frame : 96
+Posture : 30
+Shoulder set : 56
+Neck position : 45
+Leg lenght : 101
+Shoulder : 104
+Arm Bulk : 103
+Hands : 98
+Chest : 107
+Stomach : 102
+Waist : 102
+Hips : 103
+Legs bulk : 103
+Legs shape : 99
+Feet : 86
+
+Head size : 97
+Head shape : 100
+Neck : 97
+Neck Width : 107
+Neck Length : 98
+Jaw : 105
+Cheekbones : 16
+Mouth size : 5
+Mouth width : 23
+Nose width : 7
+Nose length : 12
+Nose arch : -9
+Nose position : -52
+Nose tilt : 0
+Brow position : 8
+Brow tilt : 22
+Eyes depth : 38
+Eyes narrow : 0
+Eyes closeness : -14
+Eyes tilt : 3
+Eyes height : 4
+Eyes size : 77
+Chin depth : 0
+
+Colour : 4
+Saturation : 38
+Brightness : 26

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>2206674286</id>
+  <mod>Advanced Training S100</mod>
+  <title>Advanced Training - Submod LVL 100</title>
+  <tags>
+    <string>Buildings</string>
+    <string>Cheats</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2020-08-23T13:56:09.6989113+02:00</lastUpdate>
+</ModData>

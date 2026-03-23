@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_Window" position_real="0 0 0.61562502384185791 0.86851853132247925" align="Stretch" layer="Window" name="Root">
+        <Property key="Caption" value="Options"/>
+        <Widget type="TabControl" skin="Kenshi_TabControl" position_real="0.010204081423580647 0.012318029068410397 0.97789114713668823 0.78611421585083008" align="Stretch" name="OptionsTab"/>
+        <Widget type="Widget" skin="Kenshi_GenericTextBoxFlat" position_real="0 0.92161256074905396 0.99659866094589233 0.07950727641582489" align="HStretch Bottom">
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.88481229543685913 0.26760563254356384 0.10836177319288254 0.56338030099868774" name="CloseButton">
+                <Property key="Caption" value="CLOSE"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.7713310718536377 0.28169015049934387 0.10750853270292282 0.56338030099868774" name="DefaultButton">
+                <Property key="Visible" value="false"/>
+                <Property key="Caption" value="DEFAULT"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.010204081423580647 0.8017917275428772 0.97874146699905396 0.13997760415077209" align="Stretch" name="TooltipPanel">
+            <Property key="Static" value="true"/>
+            <Property key="MultiLine" value="true"/>
+            <Property key="WordWrap" value="true"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

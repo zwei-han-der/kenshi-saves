@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>2722854590</id>
+  <mod>Radiant Vanilla Reborn Weapons</mod>
+  <title>Radiant Vanilla Reborn Weapons</title>
+  <tags>
+    <string>Graphical</string>
+    <string>Items/Weapons</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate xsi:nil="true" />
+</ModData>

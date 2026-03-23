@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>2920734060</id>
+  <mod>Radiant Ultra Dark UI</mod>
+  <title>Radiant Ultra Dark UI</title>
+  <tags>
+    <string>Graphical</string>
+    <string>GUI</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2023-01-21T11:22:59.4275773+01:00</lastUpdate>
+</ModData>

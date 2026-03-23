@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>771745662</id>
+  <mod>Advanced Training</mod>
+  <title>Advanced training dummies</title>
+  <tags>
+    <string>Buildings</string>
+    <string>Cheats</string>
+    <string>Research</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2019-12-19T09:32:17.2857254+01:00</lastUpdate>
+</ModData>

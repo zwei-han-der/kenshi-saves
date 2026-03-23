@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0 0 0.30000001192092896 0.50833332538604736" align="Default" layer="Window" name="Root">
+        <Property key="Depth" value="1"/>
+        <Widget type="Button" skin="Kenshi_SpeedArrowLeftSkin" position_real="0.02083333395421505 0.063752278685569763 0.0555555559694767 0.091074682772159576" name="LeftButton"/>
+        <Widget type="Button" skin="Kenshi_SpeedArrowRightSkin" position_real="0.92534720897674561 0.063752278685569763 0.0555555559694767 0.091074682772159576" name="RightButton"/>
+        <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.010416666977107525 0.018214935436844826 0.97916668653488159 0.061930783092975616" name="lbChooseBeginning">
+            <Property key="Caption" value="CHOOSE YOUR BEGINNING"/>
+            <Property key="FontHeight" value="0"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Large"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.0763888880610466 0.069216758012771606 0.85243058204650879 0.078324228525161743" name="TitleTextBox">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Caption" value="Wanderer"/>
+            <Property key="FontName" value="Kenshi_StandardFont_Large"/>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.0173611119389534 0.15664845705032349 0.96527779102325439 0.65755921602249146" align="Stretch">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.010791366919875145 0.016620498150587082 0.97841727733612061 0.96121883392333984" align="Stretch" name="DescriptionPanel"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button1" position_real="0.0173611119389534 0.8852459192276001 0.4756944477558136 0.098360657691955566" name="BeginButton">
+            <Property key="Caption" value="BEGIN"/>
+            <Property key="FontName" value="Kenshi_PaintedTextFont_Large"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button1" position_real="0.01909722201526165 0.81420767307281494 0.96180558204650879 0.06739526242017746" name="AdvancedButton">
+            <Property key="Caption" value="ADVANCED OPTIONS"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_Button1" position_real="0.5017361044883728 0.8852459192276001 0.4774305522441864 0.098360657691955566" name="CancelButton">
+            <Property key="Caption" value="CANCEL"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

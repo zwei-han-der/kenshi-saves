@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_WindowCX" position_real="0 0 0.52031248807907104 0.41111111640930176" layer="Window" name="Root">
+        <Property key="Depth" value="0"/>
+        <Property key="Caption" value="TUTORIALS"/>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.25075528025627136 0 0.74924468994140625 1" align="Stretch">
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.85080647468566895 0.90225565433502197 0.13306452333927155 0.072681702673435211" align="Right Bottom" name="NextTutorialButton">
+                <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+                <Property key="Caption" value="&gt;&gt;"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.70967739820480347 0.90225565433502197 0.13306452333927155 0.072681702673435211" align="Right Bottom" name="PrevTutorialButton">
+                <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+                <Property key="Caption" value="&lt;&lt;"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.0053763440810143948 0.90225565433502197 0.13306452333927155 0.072681702673435211" align="Left Bottom" name="ActivateButton">
+                <Property key="Caption" value="ACTIVATE"/>
+                <Property key="FontName" value="Kenshi_PaintedTextFont_Small"/>
+            </Widget>
+            <Widget type="EditBox" skin="Kenshi_WordWrap" position_real="0.0026881720405071974 0.015037594363093376 0.9838709831237793 0.88721805810928345" align="Stretch" name="TutorialDescription"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.13978494703769684 0.90225565433502197 0.56989246606826782 0.072681702673435211" align="HStretch Bottom" name="PagingText">
+                <Property key="Caption" value="1 / 2"/>
+                <Property key="TextColour" value="0.4 0.380392 0.356863"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.25075528025627136 1" align="Stretch">
+            <Widget type="ListBox" skin="Kenshi_ListBox" position_real="0.036144576966762543 0.015037594363093376 0.9598393440246582 0.96741855144500732" align="Stretch" name="TutorialList"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

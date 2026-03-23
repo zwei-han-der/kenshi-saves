@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Kenshi_WindowCX" position_real="0 0 0.2083333283662796 0.39722222089767456" layer="Window" name="Root">
+        <Property key="Caption" value="BUILDING NAME"/>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.010152284055948257 0 0.9771573543548584 0.1145833358168602" align="HStretch Top" name="CraftingPanel">
+            <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0 0.068181820213794708 0.67272728681564331 0.81818181276321411" align="HStretch VCenter" name="CraftingName">
+                <Property key="MultiLine" value="false"/>
+                <Property key="ReadOnly" value="true"/>
+                <Property key="Static" value="true"/>
+                <Property key="VisibleHScroll" value="false"/>
+                <Property key="VisibleVScroll" value="false"/>
+                <Property key="Caption" value="Current crafing object"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.66233766078948975 0.15909090638160706 0.31688311696052551 0.61363637447357178" align="Right VCenter" name="QueueButton">
+                <Property key="Caption" value="QUEUE..."/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.010152284055948257 0.1145833358168602 0.9771573543548584 0.088541664183139801" align="HStretch Top" name="TitlesPanel">
+            <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0 0 0.4987013041973114 1" align="Stretch" name="InputTitleText">
+                <Property key="Caption" value="INPUTS"/>
+                <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.4987013041973114 0 0.4987013041973114 1" align="Stretch" name="OutputTitleText">
+                <Property key="Caption" value="OUTPUT"/>
+                <Property key="FontName" value="Kenshi_PaintedTextFont_Medium"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.010152284055948257 0.2057291716337204 0.9771573543548584 0.76302081346511841" align="Default" name="InputOutputPanel">
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.4987013041973114 0 0.4987013041973114 1" align="Default" name="OutputColumn">
+                <Widget type="Widget" skin="Kenshi_GenericTextBoxSkin" position_real="0 0 1 0.49829351902008057" align="Default" name="OutputPanel">
+                    <Widget type="Widget" skin="PanelEmpty" position_real="0.046875 0.30136987566947937 0.88020831346511841 0.57534247636795044" align="Stretch" name="OutputContent">
+                        <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0 0 0.88165682554244995 0.28571429848670959" align="Left Top" name="out"/>
+                        <Widget type="ProgressBar" skin="Kenshi_ProgressBarFill" position_real="0 0.4761904776096344 1 0.3333333432674408" align="Left Bottom" name="OutputProgressBar">
+                            <Property key="Range" value="100"/>
+                        </Widget>
+                    </Widget>
+                    <Widget type="EditBox" skin="Kenshi_TextboxStandardText" position_real="0.046875 0.047945205122232437 0.88020831346511841 0.21917808055877686" align="HStretch Top" name="OutputText">
+                        <Property key="Caption" value="Output"/>
+                        <Property key="TextAlign" value="Center"/>
+                        <Property key="MultiLine" value="true"/>
+                        <Property key="WordWrap" value="true"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="Kenshi_GenericTextBoxSkin" position_real="0 0.49829351902008057 1 0.49829351902008057" align="Default" name="OutputDataPanel">
+                    <Property key="Visible" value="false"/>
+                    <Widget type="Widget" skin="PanelEmpty" position_real="0.046875 0.061643835157155991 0.89583331346511841 0.86301368474960327" align="Stretch"/>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.4987013041973114 1" name="InputColumn">
+                <Widget type="Widget" skin="Kenshi_GenericTextBoxSkin" position_real="0 0 1 0.49829351902008057" name="Input1Panel">
+                    <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.046875 0.047945205122232437 0.88020831346511841 0.13013698160648346" align="HStretch Top" name="Input1Text">
+                        <Property key="Caption" value="Input 1"/>
+                        <Property key="TextAlign" value="Center"/>
+                    </Widget>
+                    <Widget type="TextBox" skin="Kenshi_TextboxStandardText_Small" position_real="0.046875 0.17123287916183472 0.88020831346511841 0.095890410244464874" align="HStretch Top" name="Input1StatusText">
+                        <Property key="Caption" value="Input 1 status"/>
+                        <Property key="TextAlign" value="Center"/>
+                    </Widget>
+                    <Widget type="Widget" skin="PanelEmpty" position_real="0.046875 0.30136987566947937 0.88020831346511841 0.60273975133895874" align="Stretch" name="Input1Content">
+                        <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0 0 0.88165682554244995 0.27272728085517883" align="Left Top" name="in1"/>
+                        <Widget type="ProgressBar" skin="Kenshi_ProgressBarFill" position_real="0 0.45454546809196472 1 0.31818181276321411" align="Left Bottom" name="Input1ProgressBar">
+                            <Property key="Range" value="100"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="Kenshi_GenericTextBoxSkin" position_real="0 0.49829351902008057 1 0.49829351902008057" name="Input2Panel">
+                    <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0.046875 0.034246575087308884 0.88020831346511841 0.13013698160648346" align="HStretch Top" name="Input2Text">
+                        <Property key="Caption" value="Input 2"/>
+                        <Property key="TextAlign" value="Center"/>
+                    </Widget>
+                    <Widget type="TextBox" skin="Kenshi_TextboxStandardText_Small" position_real="0.046875 0.17123287916183472 0.88020831346511841 0.095890410244464874" align="HStretch Top" name="Input2StatusText">
+                        <Property key="Caption" value="Input 2 status"/>
+                        <Property key="TextAlign" value="Center"/>
+                    </Widget>
+                    <Widget type="Widget" skin="PanelEmpty" position_real="0.046875 0.30136987566947937 0.88020831346511841 0.60273975133895874" align="Stretch" name="Input2Content">
+                        <Widget type="Widget" skin="Kenshi_InventorySlotSkin" position_real="0 0 0.88165682554244995 0.27272728085517883" align="Left Top" name="in2"/>
+                        <Widget type="ProgressBar" skin="Kenshi_ProgressBarFill" position_real="0 0.45454546809196472 1 0.31818181276321411" align="Left Bottom" name="Input2ProgressBar">
+                            <Property key="Range" value="100"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

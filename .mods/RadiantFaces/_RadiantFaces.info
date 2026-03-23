@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ModData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>2508412096</id>
+  <mod>RadiantFaces</mod>
+  <title>Radiant Better Faces &amp; Eyes</title>
+  <tags>
+    <string>Characters</string>
+    <string>Graphical</string>
+    <string>Races</string>
+  </tags>
+  <visibility>0</visibility>
+  <lastUpdate>2021-11-11T11:44:50.2000702+01:00</lastUpdate>
+</ModData>

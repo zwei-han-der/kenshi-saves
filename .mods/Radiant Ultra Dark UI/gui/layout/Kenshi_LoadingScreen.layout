@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" layer="Top" name="Root">
+        <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" align="Stretch" name="BackgroundImage">
+            <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0.32343751192092896 0.65648150444030762 0.3515625 0.27777779102325439" name="LoadingPanel">
+                <Property key="InheritsAlpha" value="false"/>
+                <Widget type="EditBox" skin="Kenshi_GenericTextBox" position_real="0.034074075520038605 0.36000001430511475 0.93185186386108398 0.56666666269302368" align="Stretch" name="MessageText">
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="Caption" value="This is a tip"/>
+                    <Property key="FontName" value="Kenshi_FloaterFont_Large"/>
+                </Widget>
+                <Widget type="TextBox" skin="Kenshi_TextBoxEmptySkin" position_real="0.081481479108333588 0.0099999997764825821 0.90074074268341064 0.30000001192092896" align="HStretch Top" name="LoadingText">
+                    <Property key="Caption" value="LOADING..."/>
+                    <Property key="FontName" value="Kenshi_UI_Messages"/>
+                    <Property key="TextColour" value="0.871345 0.845139 0.810198"/>
+                    <Property key="TextAlign" value="Left VCenter"/>
+                </Widget>
+                <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0.017777778208255768 0.31999999284744263 0.96444445848464966 0.64999997615814209"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

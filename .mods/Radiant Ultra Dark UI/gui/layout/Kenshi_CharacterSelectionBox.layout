@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="Kenshi_FrameSkin" position_real="0 0 0.37708333134651184 0.1805555522441864" name="Root">
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.013812154531478882 0.23589743673801422 0.1864640861749649 0.69743591547012329" align="Stretch" name="Portrait">
+            <Property key="NeedMouse" value="false"/>
+            <Property key="NeedKey" value="false"/>
+            <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0 0.80882352590560913 0.99259257316589355 0.18382352590560913" name="NameTextBox">
+                <Property key="Caption" value="Name"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="0.894737 0.860072 0.811019"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_GenericTextBox" position_real="0.2058010995388031 0.05128205195069313 0.66850829124450684 0.89743590354919434" align="Stretch" name="StatsTextBox">
+            <Property key="NeedKey" value="false"/>
+            <Property key="NeedMouse" value="false"/>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.0082644624635577202 0 0.48347106575965881 0.98285716772079468" align="Stretch" name="DataPanel1"/>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.50826448202133179 0 0.46900826692581177 0.98285716772079468" align="Stretch" name="DataPanel2"/>
+        </Widget>
+        <Widget type="Button" skin="Kenshi_TickBoxSkin" position_real="0.91022098064422607 0.40512821078300476 0.046961326152086258 0.17435897886753082" align="Right VCenter" name="CheckBox">
+            <Property key="StateSelected" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.013812154531478882 0.041025642305612564 0.18508286774158478 0.17435897886753082" align="Left Top" name="PriceTextBox">
+            <Property key="Caption" value="c.1000"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="NeedMouse" value="false"/>
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

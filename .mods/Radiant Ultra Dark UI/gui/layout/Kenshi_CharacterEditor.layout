@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" align="Stretch" layer="Back" name="Root">
+        <Property key="InheritsPick" value="true"/>
+        <Property key="NeedMouse" value="false"/>
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0.69999998807907104 0 0.30000001192092896 1.0009258985519409" name="TabsPanel">
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.013888888992369175 0.0064754858613014221 0.3229166567325592 0.036077704280614853" align="Left Top" name="BodyTabButton">
+                <Property key="Caption" value="BODY"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.34027779102325439 0.0064754858613014221 0.3211805522441864 0.036077704280614853" align="HCenter Top" name="FaceTabButton">
+                <Property key="Caption" value="FACE"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.66493058204650879 0.0064754858613014221 0.3211805522441864 0.036077704280614853" align="Right Top" name="HairTabButton">
+                <Property key="Caption" value="HAIR"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.015625 0.050878815352916718 0.96875 0.90101754665374756" name="TabsPanelContent"/>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.34027779102325439 0.95837187767028809 0.3211805522441864 0.036077704280614853" align="HCenter Bottom" name="RandomiseButton">
+                <Property key="Caption" value="RANDOMISE"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.013888888992369175 0.95837187767028809 0.3229166567325592 0.036077704280614853" align="Left Bottom" name="RandomiseAllButton">
+                <Property key="Caption" value="RANDOMISE ALL"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.66493058204650879 0.95837187767028809 0.3211805522441864 0.036077704280614853" align="Right Bottom" name="ResetButton">
+                <Property key="Caption" value="RESET ALL"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0 0 0.16093750298023224 0.35370370745658875" align="Default" name="NamePanel">
+            <Widget type="EditBox" skin="Kenshi_EditBox" position_real="0.032362461090087891 0.023560209199786186 0.93203884363174438 0.091623038053512573" name="NameText">
+                <Property key="Caption" value="NAME"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="MultiLine" value="false"/>
+                <Property key="MaxTextLength" value="30"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_SpeedArrowLeftSkin" position_real="0.032362461090087891 0.16230367124080658 0.090614885091781616 0.13089005649089813" name="RaceLeftButton"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowRightSkin" position_real="0.8673139214515686 0.16230367124080658 0.097087375819683075 0.13089005649089813" name="RaceRightButton"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowLeftSkin" position_real="0.032362461090087891 0.33769634366035461 0.090614885091781616 0.13089005649089813" name="SubRaceLeftButton"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowRightSkin" position_real="0.8673139214515686 0.33246073126792908 0.097087375819683075 0.13089005649089813" name="SubRaceRightButton"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowLeftSkin" position_real="0.032362461090087891 0.50785338878631592 0.090614885091781616 0.13089005649089813" name="GenderLeftButton"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowRightSkin" position_real="0.8673139214515686 0.50785338878631592 0.097087375819683075 0.13089005649089813" name="GenderRightButton"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowLeftSkin" position_real="0.032362461090087891 0.67801046371459961 0.087378643453121185 0.12827225029468536" name="CharLeftArrow"/>
+            <Widget type="Button" skin="Kenshi_SpeedArrowRightSkin" position_real="0.8673139214515686 0.67801046371459961 0.093851134181022644 0.12827225029468536" name="CharRightArrow"/>
+            <Widget type="Widget" skin="Kenshi_SpeedTextboxSkin" position_real="0.12621359527111053 0.70418846607208252 0.73786407709121704 0.068062826991081238">
+                <Widget type="TextBox" skin="Kenshi_TextboxStandardText" position_real="0 0 1 1" name="CharIndexText">
+                    <Property key="Caption" value="2/5"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.022653721272945404 0.83246076107025146 0.32038834691047668 0.078534029424190521" name="ImportButton">
+                <Property key="Caption" value="IMPORT"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.022653721272945404 0.90575915575027466 0.32038834691047668 0.078534029424190521" name="ExportButton">
+                <Property key="Caption" value="EXPORT"/>
+            </Widget>
+            <Widget type="Button" skin="Kenshi_TickButton1" position_real="0.34627830982208252 0.90837699174880981 0.62783169746398926 0.068062826991081238" name="ClothesButton">
+                <Property key="Caption" value="CLOTHES"/>
+                <Property key="StateSelected" value="true"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.15857605636119843 0.1780104786157608 0.67637538909912109 0.10471203923225403" name="RaceText">
+                <Property key="Caption" value="RACE"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.15857605636119843 0.35078534483909607 0.67637538909912109 0.10471203923225403" name="SubRaceText">
+                <Property key="Caption" value="SUBRACE"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_GenericTextBoxFlat" position_real="0.15857605636119843 0.51832461357116699 0.67637538909912109 0.10471203923225403" name="GenderText">
+                <Property key="Caption" value="GENDER"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.025889968499541283 0.12827225029468536 0.9449838399887085 0.057591624557971954" name="lbRace">
+                <Property key="Caption" value="RACE"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.025889968499541283 0.29319372773170471 0.9449838399887085 0.057591624557971954" name="lbSubRace">
+                <Property key="Caption" value="SUBRACE"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.025889968499541283 0.46858638525009155 0.9449838399887085 0.057591624557971954" name="lbGender">
+                <Property key="Caption" value="GENDER"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0.025889968499541283 0.63874346017837524 0.9449838399887085 0.057591624557971954" name="lbChangeCharacter">
+                <Property key="Caption" value="CHANGE CHARACTER"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0 0.90555554628372192 0.16093750298023224 0.096296295523643494" align="Left Bottom" name="ConfirmPanel">
+            <Widget type="Button" skin="Kenshi_Button1" position_real="0.029126213863492012 0.086538463830947876 0.93851131200790405 0.83653843402862549" align="Stretch" name="ConfirmButton">
+                <Property key="Caption" value="CONFIRM"/>
+                <Property key="FontName" value="Kenshi_PaintedTextFont_Large"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0 0.35740742087364197 0.16093750298023224 0.27037036418914795" name="DescriptionPanel">
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0 0.027397260069847107 1 0.10273972898721695" name="lbRaceDescription">
+                <Property key="Caption" value="RACE DESCRIPTION"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="EditBox" skin="Kenshi_WordWrap2" position_real="0.022653721272945404 0.13013698160648346 0.954692542552948 0.84589040279388428" align="Stretch" name="DescriptionPanelText">
+                <Property key="Static" value="true"/>
+                <Property key="ReadOnly" value="true"/>
+                <Property key="WordWrap" value="true"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="Kenshi_FloatingPanelSkin" position_real="0 0.63148146867752075 0.16093750298023224 0.27037036418914795" name="StatsPanel">
+            <Widget type="TextBox" skin="Kenshi_TextboxPaintedText" position_real="0 0.027397260069847107 1 0.10273972898721695" name="lbRaceStats">
+                <Property key="Caption" value="RACE STATS"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.022653721272945404 0.13013698160648346 0.95145630836486816 0.84589040279388428" align="Stretch" name="StatsPanelText"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

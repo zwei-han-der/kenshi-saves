@@ -1,0 +1,57 @@
+
+--- Jewel Body preset ---
+
+Enter manually to avoid a all data jump to on scorchlander race if you load a .bod 
+It happens because she has a mix of green and scorch value at the same time !
+
+IDLE stance : /
+Tone : /*don't touch*/
+Height : 103
+Frame : 98
+Posture : 19
+Shoulder set : 70
+Neck position : 41
+Leg lenght : 108
+Shoulder : 100
+Arm Bulk : 90
+Hands : 104
+Chest : 100
+Breast size : 99
+Breast height : 80
+Breast spacing : 103
+Stomach : 97
+Waist : 92
+Hips : 109
+Legs bulk : 108
+Legs shape : 102
+Feet : 95
+
+Head size : 103
+Head shape : 100
+Neck : 104
+Neck Width : 95
+Neck Length : 96
+Cheekbones : 38
+Mouth size : -13
+Mouth width : 23
+Nose width : 18
+Nose lenght : 7
+Nose arch : 9
+Nose position : -22
+Nose tilt : 11
+Brow position : 28
+Brow tilt : 1
+Eyes depth : 7
+Eyes narrow : -9
+Eyes closeness : 6
+Eyes tilt : 6
+Eyes height : 0
+Eyes size : 64
+Jaw : 2
+Chin depth : -15
+Chin height : 0
+Chin width : 9
+
+Colour : 4
+Saturation : 51
+Brightness : 13
